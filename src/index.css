@@ -1,0 +1,433 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* src/global.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+    --color-primary: #0968c6; /* Azul Bootstrap */
+    --color-secondary: #6c757d; /* Gris Bootstrap */
+    --color-success: #28a745; /* Verde Bootstrap */
+    --color-danger: #dc3545; /* Rojo Bootstrap */
+    --color-warning: #ffc107; /* Amarillo Bootstrap */
+    --color-info: #408cc8; /* Cian Bootstrap */
+    --color-light: #dee3eb; /* Blanco grisáceo Bootstrap */
+    --color-dark: #343a40; /* Negro grisáceo Bootstrap */
+}
+#root
+{
+    background: #dee3eb;
+}
+
+
+.main-content {
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--color-light) !important;
+    color: var(--color-dark);
+}
+
+.ant-table-thead > tr > th {
+    background-color: #042956 !important;
+    color: white !important;
+    text-align: center !important; /* Centrando el texto */
+}
+/* styles.css */
+.ant-table-tbody > tr:hover {
+    background-color: #086ac6 !important;
+    cursor: pointer !important;
+}
+
+
+/* styles.css */
+.ant-table-tbody > tr:hover {
+    background-color: #086ac6;
+    cursor: pointer;
+}
+
+.ant-table-tbody > tr:focus {
+    background-color: #086ac6;
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+}
+
+.ant-table-tbody > tr.ant-table-row:hover .ant-table-cell {
+
+    background-color: #b3d4f4 !important;
+    cursor: pointer !important;
+}
+
+/* styles.css */
+.ant-table-tbody > tr.ant-table-row:hover .ant-table-cell {
+    background-color: #086ac6; /* Color de fondo para las celdas en hover */
+    cursor: pointer;
+    color: #042956 /* Color del texto en hover (opcional) */
+}
+
+
+
+
+span.anticon.anticon-filter {
+    color: #FFF !important;
+}
+
+span.ant-table-column-sorter.ant-table-column-sorter-full {
+    color: #FFF !important;
+}
+
+span.anticon.anticon-search {
+    color: #FFF !important;
+}
+
+button.ant-btn.css-dev-only-do-not-override-m4timi.ant-btn-default.btn.btn-danger {
+    padding-top: 1px !important;
+    margin-top: -3px !important;
+}
+
+span.anticon.anticon-close.ant-modal-close-icon {
+    background: #083a6d;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1.4rem;
+    padding: 3px;
+}
+
+span.anticon.anticon-close.ant-modal-close-icon:hover{
+    background: #0869c6 !important;
+}
+
+.ant-input-outlined[disabled] {
+    color: #042956 !important;
+    border-color: #0e0d0d !important;
+    
+}
+
+.ant-select-disabled:where(.css-dev-only-do-not-override-m4timi).ant-select-multiple .ant-select-selection-overflow .ant-select-selection-item{
+    color: #042956 !important;
+}
+
+.ant-table-expanded-row-fixed {
+    background: #042956;
+    color: #FFF;
+}
+
+
+
+
+.input-group {
+    background-color: #0967c600;
+}
+
+.input-group .form-control {
+    border: 1px solid var(--color-secondary);
+}
+.input-group.shadow-sm {
+    padding-bottom: 7px;
+}
+
+
+.input-group .btn {
+    
+    color: #fff;
+}
+
+.container.elemtos {
+    padding: 22px;
+}
+
+button.btn.btn-primary
+{
+    background-color: #0968c6
+}
+
+.results {
+    border-top: 1px solid var(--color-secondary);
+    padding-top: 1rem;
+}
+
+.btn-primary{
+    transition: transform 0.3s ease;
+
+}
+
+.btn-primary:hover{
+   transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Agrega transiciones suaves */
+   transform: scale(1.1) !important;
+    font-size: 1rem;
+    color: #FFF !important;
+    background: #042956!important;
+}
+
+.btn-primary-lis:hover{
+    transform: scale(1.3) !important;
+    font-size: 1.3rem;
+    color: #042956 !important;
+
+}
+
+
+.separator {
+    margin: 0 5px; /* Espacio entre el icono y el separador */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actualizacion{
+    font-size: 13px !important;
+}
+
+.distribucion{
+    padding: 0px !important;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-primary-lis {
+    color: #2196F3 !important;
+}
+.objeto{
+    color: #042956;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.3rem;
+    padding: 10px;
+}
+
+.titulo_proyecto{
+    font-size: 1.4rem;
+    color: #042956;
+    font-weight: 900 !important;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 1.2rem;
+    border-right: 2px solid #042956;
+    margin-bottom: 10px;        
+}
+
+.linea_separador{
+    margin-top: 5px;
+    border-bottom: 4px solid #0869c6;   
+}
+
+.codproyecto{
+    font-size:14px !important;
+    color: #fff !important;
+}
+
+.redondear{
+    border-radius: 1.2rem !important;
+    overflow: hidden !important;
+}
+
+.card-body:hover{
+    background-color:#FFF;
+}
+.cumplimientodetalle{
+    color:#5fa5d0;
+}
+
+.detalle_proyecto {
+    background-color: var(--color-light);
+}
+
+.icototales{
+    color: #408cc8;
+    font-size: 1rem;
+}
+
+.icototalesvalor {
+    color: #042956;
+    font-size: 1.5rem;
+}
+
+svg.svg-inline--fa.fa-table-cells {
+    padding: 5px;
+}
+
+svg.svg-inline--fa.fa-list {
+    padding: 5px;
+}
+
+button.ant-btn.css-dev-only-do-not-override-m4timi.ant-btn-default.ant-dropdown-trigger.btn.btn-primary.m-0.d-flex.align-items-center.justify-content-center {
+    padding: 19px;
+}
+
+.ant-card-body {
+    padding: 0px !important;
+}
+
+.card-body.distribucion {
+    padding: 16px !important;
+}
+
+
+.card:hover .card-header {
+    background: #317eda;
+    color: #FFF;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card-header {
+    background: #317eda;
+    color: #FFF;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f8f9fa; /* Cambia el color de fondo al hacer hover */
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 49%); /* Agrega una sombra al hacer hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Agrega transiciones suaves */
+    cursor: pointer;
+}
+
+/* insumoReportes.css */
+
+/* Estilo para el .card-body que siempre será blanco */
+.card-body {
+    background-color: #fff;
+    color: #042956; /* Color de texto para el cuerpo de la tarjeta */
+  }
+  
+  /* Estilo para el .card-header en estado normal */
+  .card-header.card-white {
+    background-color: #fff;
+    color: #042956; /* Color de texto para la tarjeta blanca */
+  }
+  
+  .card-header.card-orange {
+    background-color: #f68f41;
+    color: #fff; /* Color de texto para la tarjeta naranja */
+  }
+  
+  .card-header.card-yellow {
+    background-color: #eab403d1;
+    color: #042956; /* Color de texto para la tarjeta amarilla */
+  }
+  
+  .card-header.card-green {
+    background-color: #3BB44A;
+    color: #fff; /* Color de texto para la tarjeta verde */
+  }
+  
+  /* Estilo para el .card-header cuando la tarjeta está en estado hover */
+  .card:hover .card-header.card-white {
+    background-color: #fff;
+    color: #042956; /* Mantener color de texto en hover si es blanco */
+  }
+  
+  .card:hover .card-header.card-orange {
+    background-color: #d07f41;
+    color: #fff; /* Mantener color de texto en hover si es naranja */
+  }
+  
+  .card:hover .card-header.card-yellow {
+    background-color: #e5ac1a;
+    color: #042956; /* Mantener color de texto en hover si es amarillo */
+  }
+  
+  .card:hover .card-header.card-green {
+    background-color: #467337;
+    color: #fff; /* Mantener color de texto en hover si es verde */
+  }
+  
+
+  .card-header.card-white .card-text,
+.card-header.card-white .card-title {
+  color: #042956; /* Color para la tarjeta blanca */
+}
+
+.card-header.card-orange .card-text,
+.card-header.card-orange .card-title {
+  color: #fff; /* Color para la tarjeta naranja */
+}
+
+.card-header.card-yellow .card-text,
+.card-header.card-yellow .card-title {
+  color: #042956; /* Color para la tarjeta amarilla */
+}
+
+.card-header.card-green .card-text,
+.card-header.card-green .card-title {
+  color: #fff; /* Color para la tarjeta verde */
+}
+.text-header-color {
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  .header-filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* O usa space-around si quieres más espacio entre los elementos */
+  }
+  
+  .input-group {
+   
+    margin-left: auto; /* Asegura que el filtro se alinee a la derecha */
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .btn-primary {
+    border-radius: 0.25rem;
+  }
+  
+
+  .select-container .ant-select-selector {
+    display: flex;
+    flex-wrap: wrap;
+    
+    overflow: hidden;
+    padding-top: 8px; /* Ajusta este valor según sea necesario */
+  }
+  
+  .select-container .ant-tag {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; /* Asegura que el ancho sea uniforme */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px; /* Altura uniforme */
+    margin-bottom: 4px; /* Margen inferior para los tags */
+  }
+  
+  .select-container .ant-select-selection-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  
+  .select-container .ant-select-selection-overflow-item {
+    max-width: 100%;
+    padding: 2px 2px;
+  }
+
+  .ant-drawer-header {
+    color: white;
+    background: #02172f;
+}
