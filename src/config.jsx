@@ -2,7 +2,7 @@
 
 const CONFIG = {
     API_URL: 'https://backen-parqueadero.onrender.com/api', // Reemplaza con la URL de tu API Flask
-    URL_FRONENDT :'https://8628-45-167-125-15.ngrok-free.app '   
+    URL_FRONENDT :'https://fronted-parqueadero.onrender.com/'   
 };
 
 /*
