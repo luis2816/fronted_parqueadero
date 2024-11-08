@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Result, Button, Typography, Spin } from 'antd';
 import { obtenerDetalleCompra_id } from '../../services/usuarioServices'; // Asegúrate de que la ruta sea correcta
-
 
 const { Text } = Typography;
 
@@ -10,17 +9,16 @@ const Success = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const id_transaccion = queryParams.get('collection_id');
+  const navigate = useNavigate();
   // Estado para almacenar los datos de la compra
   const [purchaseData, setPurchaseData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-  
     const fetchPurchaseData = async () => {
       try {
         const data = await obtenerDetalleCompra_id(id_transaccion); // Llama a tu servicio
-        console.log(data)
         if (!data) {
           throw new Error('No se encontraron datos de la compra');
         }
@@ -52,7 +50,7 @@ const Success = () => {
 
   // Datos de la compra, asegurándonos de que no sean undefined
   const purchaseDate = new Date(purchaseData.fecha_registro).toLocaleDateString(); // Asegúrate que la fecha esté en el formato correcto
-  const buyerName = purchaseData.nombre + '' + purchaseData.apellido  || "Nombre no disponible"; // Nombre del comprador desde la API
+  const buyerName = purchaseData.nombre + ' ' + purchaseData.apellido || "Nombre no disponible"; // Nombre del comprador desde la API
   const buyerId = purchaseData.numero_identificacion || "ID no disponible"; // ID del comprador desde la API
   const licensesQuantity = purchaseData.cantidad_licencia ? Number(purchaseData.cantidad_licencia) : 0; // Asegúrate de convertir a número
   const totalAmount = purchaseData.cantidad_licencia * 1000 || "$0.00"; // Monto total desde la API
@@ -81,7 +79,12 @@ const Success = () => {
           <Text key="amount" style={{ display: 'block', marginTop: '10px' }}>
             Total: {totalAmount}
           </Text>,
-          <Button type="primary" key="console" style={{ marginTop: '20px' }}>
+          <Button 
+            type="primary" 
+            key="console" 
+            style={{ marginTop: '20px' }}
+            onClick={() => navigate('/')}
+          >
             Iniciar sesión
           </Button>,
         ]}
