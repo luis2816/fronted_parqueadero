@@ -26,8 +26,6 @@ const Login = () => {
           // Guardar el token en el localStorage
           localStorage.setItem("token", data.access_token);
           dispatch(fetchUserData(data.user.id));
-
-        
           message.success(
             "Bienvenido! " + data.user.nombre + " " + data.user.apellido
           );
@@ -46,10 +44,7 @@ const Login = () => {
           break;
       }
     } catch (err) {
-      // Manejo de errores generales
-      message.error("Error inesperado");
-      console.log("este es el error")
-      console.log(err)
+     
     } finally {
       // Desactiva el estado de carga al finalizar la operación
       setLoading(false);

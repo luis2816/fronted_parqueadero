@@ -307,9 +307,6 @@ const Perfil = () => {
                 <Form.Item
                   label="Cantidad de Licencias"
                   name="cantidad_licencia"
-                  rules={[
-                    { required: true, message: "Por favor ingrese un valor" },
-                  ]}
                 >
                   <Input type="number" disabled={true} />
                 </Form.Item>

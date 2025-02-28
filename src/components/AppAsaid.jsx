@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Layout, Menu } from 'antd';
-import { UserOutlined, VideoCameraOutlined, LogoutOutlined, LockOutlined } from '@ant-design/icons';
+import { UserOutlined, VideoCameraOutlined, LogoutOutlined, LockOutlined, BarChartOutlined} from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';
 import { handleLogout } from '../auth/authUtils';
 import { useDispatch } from 'react-redux';
@@ -33,7 +33,12 @@ const AppAsaid = () => {
       icon: <VideoCameraOutlined />,
       label: <Link to="/dashboard/gestion_vigilantes">Gestión vigilantes</Link>,
     },
-
+    
+    {
+      key: '3',
+      icon: <VideoCameraOutlined />,
+      label: <Link to="/dashboard/gestion_residentes">Gestión residentes</Link>,
+    },
     {
       key: '4',
       icon: <VideoCameraOutlined />,
@@ -43,6 +48,12 @@ const AppAsaid = () => {
       key: '5',
       icon: <LockOutlined />,
       label: <Link to="/dashboard/updatePassword">Cambiar contraseña</Link>,
+    },
+
+    {
+      key: '5',
+      icon: <BarChartOutlined />,
+      label: <Link to="/dashboard/informe-parqueaderos">Informe por parqueadero</Link>,
     },
     {
       key: 'logout',
