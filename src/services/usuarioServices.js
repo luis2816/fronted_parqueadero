@@ -28,7 +28,6 @@ export const obtenerUsuarioPorId = async (id) => {
 };
 
 export const insertUsuario = async (formData) => {
-    console.log(formData);
     try {
         const response = await axios.post(`${API_URL}/signup`, formData, {
             headers: {

@@ -1,0 +1,4714 @@
+{
+    "Departamentos": [
+      {
+        "oid_departamento": 1,
+        "nombre_departamento": "Antioquia",
+        "municipios": [
+          {
+            "oid_municipio": 58,
+            "nombre_municipio": "Abejorral"
+          },
+          {
+            "oid_municipio": 40,
+            "nombre_municipio": "Abriaquí"
+          },
+          {
+            "oid_municipio": 59,
+            "nombre_municipio": "Alejandría"
+          },
+          {
+            "oid_municipio": 81,
+            "nombre_municipio": "Amaga"
+          },
+          {
+            "oid_municipio": 13,
+            "nombre_municipio": "Amalfi"
+          },
+          {
+            "oid_municipio": 82,
+            "nombre_municipio": "Andes"
+          },
+          {
+            "oid_municipio": 83,
+            "nombre_municipio": "Angelopolis"
+          },
+          {
+            "oid_municipio": 23,
+            "nombre_municipio": "Angostura"
+          },
+          {
+            "oid_municipio": 14,
+            "nombre_municipio": "Anorí"
+          },
+          {
+            "oid_municipio": 41,
+            "nombre_municipio": "Anza"
+          },
+          {
+            "oid_municipio": 105,
+            "nombre_municipio": "Apartadó"
+          },
+          {
+            "oid_municipio": 106,
+            "nombre_municipio": "Arboletes"
+          },
+          {
+            "oid_municipio": 60,
+            "nombre_municipio": "Argelia"
+          },
+          {
+            "oid_municipio": 42,
+            "nombre_municipio": "Armenia"
+          },
+          {
+            "oid_municipio": 116,
+            "nombre_municipio": "Barbosa"
+          },
+          {
+            "oid_municipio": 117,
+            "nombre_municipio": "Bello"
+          },
+          {
+            "oid_municipio": 24,
+            "nombre_municipio": "Belmira"
+          },
+          {
+            "oid_municipio": 84,
+            "nombre_municipio": "Betania"
+          },
+          {
+            "oid_municipio": 85,
+            "nombre_municipio": "Betulia"
+          },
+          {
+            "oid_municipio": 25,
+            "nombre_municipio": "Briceño"
+          },
+          {
+            "oid_municipio": 43,
+            "nombre_municipio": "Buriticá"
+          },
+          {
+            "oid_municipio": 1,
+            "nombre_municipio": "Cáceres"
+          },
+          {
+            "oid_municipio": 86,
+            "nombre_municipio": "Caicedo"
+          },
+          {
+            "oid_municipio": 118,
+            "nombre_municipio": "Caldas"
+          },
+          {
+            "oid_municipio": 26,
+            "nombre_municipio": "Campamento"
+          },
+          {
+            "oid_municipio": 44,
+            "nombre_municipio": "Cañasgordas"
+          },
+          {
+            "oid_municipio": 7,
+            "nombre_municipio": "Caracolí"
+          },
+          {
+            "oid_municipio": 87,
+            "nombre_municipio": "Caramanta"
+          },
+          {
+            "oid_municipio": 107,
+            "nombre_municipio": "Carepa"
+          },
+          {
+            "oid_municipio": 61,
+            "nombre_municipio": "Carmen De Viboral"
+          },
+          {
+            "oid_municipio": 27,
+            "nombre_municipio": "Carolina"
+          },
+          {
+            "oid_municipio": 2,
+            "nombre_municipio": "Caucasia"
+          },
+          {
+            "oid_municipio": 108,
+            "nombre_municipio": "Chigorodó"
+          },
+          {
+            "oid_municipio": 15,
+            "nombre_municipio": "Cisneros"
+          },
+          {
+            "oid_municipio": 88,
+            "nombre_municipio": "Ciudad Bolívar"
+          },
+          {
+            "oid_municipio": 62,
+            "nombre_municipio": "Cocorná"
+          },
+          {
+            "oid_municipio": 63,
+            "nombre_municipio": "Concepción"
+          },
+          {
+            "oid_municipio": 89,
+            "nombre_municipio": "Concordia"
+          },
+          {
+            "oid_municipio": 119,
+            "nombre_municipio": "Copacabana"
+          },
+          {
+            "oid_municipio": 45,
+            "nombre_municipio": "Dabeiba"
+          },
+          {
+            "oid_municipio": 28,
+            "nombre_municipio": "Don Matias"
+          },
+          {
+            "oid_municipio": 46,
+            "nombre_municipio": "Ebéjico"
+          },
+          {
+            "oid_municipio": 3,
+            "nombre_municipio": "El Bagre"
+          },
+          {
+            "oid_municipio": 29,
+            "nombre_municipio": "Entrerrios"
+          },
+          {
+            "oid_municipio": 120,
+            "nombre_municipio": "Envigado"
+          },
+          {
+            "oid_municipio": 90,
+            "nombre_municipio": "Fredonia"
+          },
+          {
+            "oid_municipio": 47,
+            "nombre_municipio": "Frontino"
+          },
+          {
+            "oid_municipio": 48,
+            "nombre_municipio": "Giraldo"
+          },
+          {
+            "oid_municipio": 121,
+            "nombre_municipio": "Girardota"
+          },
+          {
+            "oid_municipio": 30,
+            "nombre_municipio": "Gómez Plata"
+          },
+          {
+            "oid_municipio": 64,
+            "nombre_municipio": "Granada"
+          },
+          {
+            "oid_municipio": 31,
+            "nombre_municipio": "Guadalupe"
+          },
+          {
+            "oid_municipio": 65,
+            "nombre_municipio": "Guarne"
+          },
+          {
+            "oid_municipio": 66,
+            "nombre_municipio": "Guatape"
+          },
+          {
+            "oid_municipio": 49,
+            "nombre_municipio": "Heliconia"
+          },
+          {
+            "oid_municipio": 91,
+            "nombre_municipio": "Hispania"
+          },
+          {
+            "oid_municipio": 122,
+            "nombre_municipio": "Itagui"
+          },
+          {
+            "oid_municipio": 32,
+            "nombre_municipio": "Ituango"
+          },
+          {
+            "oid_municipio": 92,
+            "nombre_municipio": "Jardín"
+          },
+          {
+            "oid_municipio": 93,
+            "nombre_municipio": "Jericó"
+          },
+          {
+            "oid_municipio": 67,
+            "nombre_municipio": "La Ceja"
+          },
+          {
+            "oid_municipio": 123,
+            "nombre_municipio": "La Estrella"
+          },
+          {
+            "oid_municipio": 94,
+            "nombre_municipio": "La Pintada"
+          },
+          {
+            "oid_municipio": 68,
+            "nombre_municipio": "La Unión"
+          },
+          {
+            "oid_municipio": 50,
+            "nombre_municipio": "Liborina"
+          },
+          {
+            "oid_municipio": 8,
+            "nombre_municipio": "Maceo"
+          },
+          {
+            "oid_municipio": 69,
+            "nombre_municipio": "Marinilla"
+          },
+          {
+            "oid_municipio": 124,
+            "nombre_municipio": "Medellín"
+          },
+          {
+            "oid_municipio": 95,
+            "nombre_municipio": "Montebello"
+          },
+          {
+            "oid_municipio": 109,
+            "nombre_municipio": "Murindó"
+          },
+          {
+            "oid_municipio": 110,
+            "nombre_municipio": "Mutatá"
+          },
+          {
+            "oid_municipio": 70,
+            "nombre_municipio": "Nariño"
+          },
+          {
+            "oid_municipio": 4,
+            "nombre_municipio": "Nechí"
+          },
+          {
+            "oid_municipio": 111,
+            "nombre_municipio": "Necoclí"
+          },
+          {
+            "oid_municipio": 51,
+            "nombre_municipio": "Olaya"
+          },
+          {
+            "oid_municipio": 71,
+            "nombre_municipio": "Peñol"
+          },
+          {
+            "oid_municipio": 52,
+            "nombre_municipio": "Peque"
+          },
+          {
+            "oid_municipio": 96,
+            "nombre_municipio": "Pueblorrico"
+          },
+          {
+            "oid_municipio": 9,
+            "nombre_municipio": "Puerto Berrio"
+          },
+          {
+            "oid_municipio": 10,
+            "nombre_municipio": "Puerto Nare"
+          },
+          {
+            "oid_municipio": 11,
+            "nombre_municipio": "Puerto Triunfo"
+          },
+          {
+            "oid_municipio": 16,
+            "nombre_municipio": "Remedios"
+          },
+          {
+            "oid_municipio": 72,
+            "nombre_municipio": "Retiro"
+          },
+          {
+            "oid_municipio": 73,
+            "nombre_municipio": "Rionegro"
+          },
+          {
+            "oid_municipio": 53,
+            "nombre_municipio": "Sabanalarga"
+          },
+          {
+            "oid_municipio": 125,
+            "nombre_municipio": "Sabaneta"
+          },
+          {
+            "oid_municipio": 97,
+            "nombre_municipio": "Salgar"
+          },
+          {
+            "oid_municipio": 33,
+            "nombre_municipio": "San Andrés"
+          },
+          {
+            "oid_municipio": 74,
+            "nombre_municipio": "San Carlos"
+          },
+          {
+            "oid_municipio": 75,
+            "nombre_municipio": "San Francisco"
+          },
+          {
+            "oid_municipio": 54,
+            "nombre_municipio": "San Jerónimo"
+          },
+          {
+            "oid_municipio": 34,
+            "nombre_municipio": "San José De La Montaña"
+          },
+          {
+            "oid_municipio": 112,
+            "nombre_municipio": "San Juan De Uraba"
+          },
+          {
+            "oid_municipio": 76,
+            "nombre_municipio": "San Luis"
+          },
+          {
+            "oid_municipio": 35,
+            "nombre_municipio": "San Pedro"
+          },
+          {
+            "oid_municipio": 113,
+            "nombre_municipio": "San Pedro De Uraba"
+          },
+          {
+            "oid_municipio": 77,
+            "nombre_municipio": "San Rafael"
+          },
+          {
+            "oid_municipio": 17,
+            "nombre_municipio": "San Roque"
+          },
+          {
+            "oid_municipio": 78,
+            "nombre_municipio": "San Vicente"
+          },
+          {
+            "oid_municipio": 98,
+            "nombre_municipio": "Santa Barbara"
+          },
+          {
+            "oid_municipio": 36,
+            "nombre_municipio": "Santa Rosa De Osos"
+          },
+          {
+            "oid_municipio": 55,
+            "nombre_municipio": "Santafé De Antioquia"
+          },
+          {
+            "oid_municipio": 18,
+            "nombre_municipio": "Santo Domingo"
+          },
+          {
+            "oid_municipio": 79,
+            "nombre_municipio": "Santuario"
+          },
+          {
+            "oid_municipio": 19,
+            "nombre_municipio": "Segovia"
+          },
+          {
+            "oid_municipio": 80,
+            "nombre_municipio": "Sonson"
+          },
+          {
+            "oid_municipio": 56,
+            "nombre_municipio": "Sopetran"
+          },
+          {
+            "oid_municipio": 99,
+            "nombre_municipio": "Támesis"
+          },
+          {
+            "oid_municipio": 5,
+            "nombre_municipio": "Tarazá"
+          },
+          {
+            "oid_municipio": 100,
+            "nombre_municipio": "Tarso"
+          },
+          {
+            "oid_municipio": 101,
+            "nombre_municipio": "Titiribí"
+          },
+          {
+            "oid_municipio": 37,
+            "nombre_municipio": "Toledo"
+          },
+          {
+            "oid_municipio": 114,
+            "nombre_municipio": "Turbo"
+          },
+          {
+            "oid_municipio": 57,
+            "nombre_municipio": "Uramita"
+          },
+          {
+            "oid_municipio": 102,
+            "nombre_municipio": "Urrao"
+          },
+          {
+            "oid_municipio": 38,
+            "nombre_municipio": "Valdivia"
+          },
+          {
+            "oid_municipio": 103,
+            "nombre_municipio": "Valparaiso"
+          },
+          {
+            "oid_municipio": 20,
+            "nombre_municipio": "Vegachí"
+          },
+          {
+            "oid_municipio": 104,
+            "nombre_municipio": "Venecia"
+          },
+          {
+            "oid_municipio": 115,
+            "nombre_municipio": "Vigía Del Fuerte"
+          },
+          {
+            "oid_municipio": 21,
+            "nombre_municipio": "Yalí"
+          },
+          {
+            "oid_municipio": 39,
+            "nombre_municipio": "Yarumal"
+          },
+          {
+            "oid_municipio": 22,
+            "nombre_municipio": "Yolombó"
+          },
+          {
+            "oid_municipio": 12,
+            "nombre_municipio": "Yondó"
+          },
+          {
+            "oid_municipio": 6,
+            "nombre_municipio": "Zaragoza"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 2,
+        "nombre_departamento": "Atlántico",
+        "municipios": [
+          {
+            "oid_municipio": 138,
+            "nombre_municipio": "Baranoa"
+          },
+          {
+            "oid_municipio": 126,
+            "nombre_municipio": "Barranquilla"
+          },
+          {
+            "oid_municipio": 131,
+            "nombre_municipio": "Campo De La Cruz"
+          },
+          {
+            "oid_municipio": 132,
+            "nombre_municipio": "Candelaria"
+          },
+          {
+            "oid_municipio": 127,
+            "nombre_municipio": "Galapa"
+          },
+          {
+            "oid_municipio": 145,
+            "nombre_municipio": "Juan De Acosta"
+          },
+          {
+            "oid_municipio": 133,
+            "nombre_municipio": "Luruaco"
+          },
+          {
+            "oid_municipio": 128,
+            "nombre_municipio": "Malambo"
+          },
+          {
+            "oid_municipio": 134,
+            "nombre_municipio": "Manati"
+          },
+          {
+            "oid_municipio": 139,
+            "nombre_municipio": "Palmar De Varela"
+          },
+          {
+            "oid_municipio": 146,
+            "nombre_municipio": "Piojó"
+          },
+          {
+            "oid_municipio": 140,
+            "nombre_municipio": "Polonuevo"
+          },
+          {
+            "oid_municipio": 141,
+            "nombre_municipio": "Ponedera"
+          },
+          {
+            "oid_municipio": 129,
+            "nombre_municipio": "Puerto Colombia"
+          },
+          {
+            "oid_municipio": 135,
+            "nombre_municipio": "Repelon"
+          },
+          {
+            "oid_municipio": 142,
+            "nombre_municipio": "Sabanagrande"
+          },
+          {
+            "oid_municipio": 143,
+            "nombre_municipio": "Sabanalarga"
+          },
+          {
+            "oid_municipio": 136,
+            "nombre_municipio": "Santa Lucia"
+          },
+          {
+            "oid_municipio": 144,
+            "nombre_municipio": "Santo Tomas"
+          },
+          {
+            "oid_municipio": 130,
+            "nombre_municipio": "Soledad"
+          },
+          {
+            "oid_municipio": 137,
+            "nombre_municipio": "Suan"
+          },
+          {
+            "oid_municipio": 147,
+            "nombre_municipio": "Tubara"
+          },
+          {
+            "oid_municipio": 148,
+            "nombre_municipio": "Usiacuri"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 3,
+        "nombre_departamento": "Bogotá D.C.",
+        "municipios": [
+          {
+            "oid_municipio": 149,
+            "nombre_municipio": "Bogota D.C."
+          }
+        ]
+      },
+      {
+        "oid_departamento": 4,
+        "nombre_departamento": "Bolívar",
+        "municipios": [
+          {
+            "oid_municipio": 183,
+            "nombre_municipio": "Achí"
+          },
+          {
+            "oid_municipio": 171,
+            "nombre_municipio": "Altos Del Rosario"
+          },
+          {
+            "oid_municipio": 177,
+            "nombre_municipio": "Arenal"
+          },
+          {
+            "oid_municipio": 157,
+            "nombre_municipio": "Arjona"
+          },
+          {
+            "oid_municipio": 158,
+            "nombre_municipio": "Arroyohondo"
+          },
+          {
+            "oid_municipio": 172,
+            "nombre_municipio": "Barranco De Loba"
+          },
+          {
+            "oid_municipio": 159,
+            "nombre_municipio": "Calamar"
+          },
+          {
+            "oid_municipio": 178,
+            "nombre_municipio": "Cantagallo"
+          },
+          {
+            "oid_municipio": 189,
+            "nombre_municipio": "Carmen De Bolívar"
+          },
+          {
+            "oid_municipio": 160,
+            "nombre_municipio": "Cartagena"
+          },
+          {
+            "oid_municipio": 150,
+            "nombre_municipio": "Cicuco"
+          },
+          {
+            "oid_municipio": 161,
+            "nombre_municipio": "Clemencia"
+          },
+          {
+            "oid_municipio": 190,
+            "nombre_municipio": "Córdoba"
+          },
+          {
+            "oid_municipio": 191,
+            "nombre_municipio": "El Guamo"
+          },
+          {
+            "oid_municipio": 173,
+            "nombre_municipio": "El Peñon"
+          },
+          {
+            "oid_municipio": 151,
+            "nombre_municipio": "Hatillo De Loba"
+          },
+          {
+            "oid_municipio": 184,
+            "nombre_municipio": "Magangué"
+          },
+          {
+            "oid_municipio": 162,
+            "nombre_municipio": "Mahates"
+          },
+          {
+            "oid_municipio": 152,
+            "nombre_municipio": "Margarita"
+          },
+          {
+            "oid_municipio": 192,
+            "nombre_municipio": "María La Baja"
+          },
+          {
+            "oid_municipio": 153,
+            "nombre_municipio": "Mompós"
+          },
+          {
+            "oid_municipio": 185,
+            "nombre_municipio": "Montecristo"
+          },
+          {
+            "oid_municipio": 179,
+            "nombre_municipio": "Morales"
+          },
+          {
+            "oid_municipio": 154,
+            "nombre_municipio": "Norosí"
+          },
+          {
+            "oid_municipio": 186,
+            "nombre_municipio": "Pinillos"
+          },
+          {
+            "oid_municipio": 174,
+            "nombre_municipio": "Regidor"
+          },
+          {
+            "oid_municipio": 175,
+            "nombre_municipio": "Río Viejo"
+          },
+          {
+            "oid_municipio": 163,
+            "nombre_municipio": "San Cristobal"
+          },
+          {
+            "oid_municipio": 164,
+            "nombre_municipio": "San Estanislao"
+          },
+          {
+            "oid_municipio": 155,
+            "nombre_municipio": "San Fernando"
+          },
+          {
+            "oid_municipio": 193,
+            "nombre_municipio": "San Jacinto"
+          },
+          {
+            "oid_municipio": 187,
+            "nombre_municipio": "San Jacinto Del Cauca"
+          },
+          {
+            "oid_municipio": 194,
+            "nombre_municipio": "San Juan Nepomuceno"
+          },
+          {
+            "oid_municipio": 176,
+            "nombre_municipio": "San Martin De Loba"
+          },
+          {
+            "oid_municipio": 180,
+            "nombre_municipio": "San Pablo"
+          },
+          {
+            "oid_municipio": 165,
+            "nombre_municipio": "Santa Catalina"
+          },
+          {
+            "oid_municipio": 166,
+            "nombre_municipio": "Santa Rosa De Lima"
+          },
+          {
+            "oid_municipio": 181,
+            "nombre_municipio": "Santa Rosa Del Sur"
+          },
+          {
+            "oid_municipio": 182,
+            "nombre_municipio": "Simití"
+          },
+          {
+            "oid_municipio": 167,
+            "nombre_municipio": "Soplaviento"
+          },
+          {
+            "oid_municipio": 156,
+            "nombre_municipio": "Talaigua Nuevo"
+          },
+          {
+            "oid_municipio": 188,
+            "nombre_municipio": "Tiquisio"
+          },
+          {
+            "oid_municipio": 168,
+            "nombre_municipio": "Turbaco"
+          },
+          {
+            "oid_municipio": 169,
+            "nombre_municipio": "Turbana"
+          },
+          {
+            "oid_municipio": 170,
+            "nombre_municipio": "Villanueva"
+          },
+          {
+            "oid_municipio": 195,
+            "nombre_municipio": "Zambrano"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 5,
+        "nombre_departamento": "Boyacá",
+        "municipios": [
+          {
+            "oid_municipio": 269,
+            "nombre_municipio": "Almeida"
+          },
+          {
+            "oid_municipio": 290,
+            "nombre_municipio": "Aquitania"
+          },
+          {
+            "oid_municipio": 277,
+            "nombre_municipio": "Arcabuco"
+          },
+          {
+            "oid_municipio": 303,
+            "nombre_municipio": "Belén"
+          },
+          {
+            "oid_municipio": 222,
+            "nombre_municipio": "Berbeo"
+          },
+          {
+            "oid_municipio": 312,
+            "nombre_municipio": "Betéitiva"
+          },
+          {
+            "oid_municipio": 244,
+            "nombre_municipio": "Boavita"
+          },
+          {
+            "oid_municipio": 228,
+            "nombre_municipio": "Boyacá"
+          },
+          {
+            "oid_municipio": 253,
+            "nombre_municipio": "Briceño"
+          },
+          {
+            "oid_municipio": 254,
+            "nombre_municipio": "Buenavista"
+          },
+          {
+            "oid_municipio": 304,
+            "nombre_municipio": "Busbanzá"
+          },
+          {
+            "oid_municipio": 255,
+            "nombre_municipio": "Caldas"
+          },
+          {
+            "oid_municipio": 223,
+            "nombre_municipio": "Campohermoso"
+          },
+          {
+            "oid_municipio": 305,
+            "nombre_municipio": "Cerinza"
+          },
+          {
+            "oid_municipio": 238,
+            "nombre_municipio": "Chinavita"
+          },
+          {
+            "oid_municipio": 256,
+            "nombre_municipio": "Chiquinquirá"
+          },
+          {
+            "oid_municipio": 196,
+            "nombre_municipio": "Chíquiza"
+          },
+          {
+            "oid_municipio": 211,
+            "nombre_municipio": "Chiscas"
+          },
+          {
+            "oid_municipio": 313,
+            "nombre_municipio": "Chita"
+          },
+          {
+            "oid_municipio": 278,
+            "nombre_municipio": "Chitaraque"
+          },
+          {
+            "oid_municipio": 197,
+            "nombre_municipio": "Chivatá"
+          },
+          {
+            "oid_municipio": 270,
+            "nombre_municipio": "Chivor"
+          },
+          {
+            "oid_municipio": 229,
+            "nombre_municipio": "Ciénega"
+          },
+          {
+            "oid_municipio": 198,
+            "nombre_municipio": "Cómbita"
+          },
+          {
+            "oid_municipio": 257,
+            "nombre_municipio": "Coper"
+          },
+          {
+            "oid_municipio": 306,
+            "nombre_municipio": "Corrales"
+          },
+          {
+            "oid_municipio": 245,
+            "nombre_municipio": "Covarachía"
+          },
+          {
+            "oid_municipio": 212,
+            "nombre_municipio": "Cubará"
+          },
+          {
+            "oid_municipio": 199,
+            "nombre_municipio": "Cucaita"
+          },
+          {
+            "oid_municipio": 291,
+            "nombre_municipio": "Cuítiva"
+          },
+          {
+            "oid_municipio": 307,
+            "nombre_municipio": "Duitama"
+          },
+          {
+            "oid_municipio": 213,
+            "nombre_municipio": "El Cocuy"
+          },
+          {
+            "oid_municipio": 214,
+            "nombre_municipio": "El Espino"
+          },
+          {
+            "oid_municipio": 292,
+            "nombre_municipio": "Firavitoba"
+          },
+          {
+            "oid_municipio": 308,
+            "nombre_municipio": "Floresta"
+          },
+          {
+            "oid_municipio": 279,
+            "nombre_municipio": "Gachantivá"
+          },
+          {
+            "oid_municipio": 293,
+            "nombre_municipio": "Gameza"
+          },
+          {
+            "oid_municipio": 239,
+            "nombre_municipio": "Garagoa"
+          },
+          {
+            "oid_municipio": 215,
+            "nombre_municipio": "Guacamayas"
+          },
+          {
+            "oid_municipio": 271,
+            "nombre_municipio": "Guateque"
+          },
+          {
+            "oid_municipio": 272,
+            "nombre_municipio": "Guayatá"
+          },
+          {
+            "oid_municipio": 216,
+            "nombre_municipio": "Güicán"
+          },
+          {
+            "oid_municipio": 294,
+            "nombre_municipio": "Iza"
+          },
+          {
+            "oid_municipio": 230,
+            "nombre_municipio": "Jenesano"
+          },
+          {
+            "oid_municipio": 314,
+            "nombre_municipio": "Jericó"
+          },
+          {
+            "oid_municipio": 273,
+            "nombre_municipio": "La Capilla"
+          },
+          {
+            "oid_municipio": 246,
+            "nombre_municipio": "La Uvita"
+          },
+          {
+            "oid_municipio": 258,
+            "nombre_municipio": "La Victoria"
+          },
+          {
+            "oid_municipio": 218,
+            "nombre_municipio": "Labranzagrande"
+          },
+          {
+            "oid_municipio": 240,
+            "nombre_municipio": "Macanal"
+          },
+          {
+            "oid_municipio": 259,
+            "nombre_municipio": "Maripí"
+          },
+          {
+            "oid_municipio": 224,
+            "nombre_municipio": "Miraflores"
+          },
+          {
+            "oid_municipio": 295,
+            "nombre_municipio": "Mongua"
+          },
+          {
+            "oid_municipio": 296,
+            "nombre_municipio": "Monguí"
+          },
+          {
+            "oid_municipio": 280,
+            "nombre_municipio": "Moniquirá"
+          },
+          {
+            "oid_municipio": 200,
+            "nombre_municipio": "Motavita"
+          },
+          {
+            "oid_municipio": 260,
+            "nombre_municipio": "Muzo"
+          },
+          {
+            "oid_municipio": 297,
+            "nombre_municipio": "Nobsa"
+          },
+          {
+            "oid_municipio": 231,
+            "nombre_municipio": "Nuevo Colón"
+          },
+          {
+            "oid_municipio": 201,
+            "nombre_municipio": "Oicatá"
+          },
+          {
+            "oid_municipio": 261,
+            "nombre_municipio": "Otanche"
+          },
+          {
+            "oid_municipio": 241,
+            "nombre_municipio": "Pachavita"
+          },
+          {
+            "oid_municipio": 225,
+            "nombre_municipio": "Páez"
+          },
+          {
+            "oid_municipio": 309,
+            "nombre_municipio": "Paipa"
+          },
+          {
+            "oid_municipio": 219,
+            "nombre_municipio": "Pajarito"
+          },
+          {
+            "oid_municipio": 217,
+            "nombre_municipio": "Panqueba"
+          },
+          {
+            "oid_municipio": 262,
+            "nombre_municipio": "Pauna"
+          },
+          {
+            "oid_municipio": 220,
+            "nombre_municipio": "Paya"
+          },
+          {
+            "oid_municipio": 315,
+            "nombre_municipio": "Paz De Río"
+          },
+          {
+            "oid_municipio": 298,
+            "nombre_municipio": "Pesca"
+          },
+          {
+            "oid_municipio": 221,
+            "nombre_municipio": "Pisba"
+          },
+          {
+            "oid_municipio": 263,
+            "nombre_municipio": "Puerto Boyaca"
+          },
+          {
+            "oid_municipio": 264,
+            "nombre_municipio": "Quípama"
+          },
+          {
+            "oid_municipio": 232,
+            "nombre_municipio": "Ramiriquí"
+          },
+          {
+            "oid_municipio": 281,
+            "nombre_municipio": "Ráquira"
+          },
+          {
+            "oid_municipio": 233,
+            "nombre_municipio": "Rondón"
+          },
+          {
+            "oid_municipio": 265,
+            "nombre_municipio": "Saboyá"
+          },
+          {
+            "oid_municipio": 282,
+            "nombre_municipio": "Sáchica"
+          },
+          {
+            "oid_municipio": 202,
+            "nombre_municipio": "Samacá"
+          },
+          {
+            "oid_municipio": 226,
+            "nombre_municipio": "San Eduardo"
+          },
+          {
+            "oid_municipio": 283,
+            "nombre_municipio": "San José De Pare"
+          },
+          {
+            "oid_municipio": 242,
+            "nombre_municipio": "San Luis De Gaceno"
+          },
+          {
+            "oid_municipio": 247,
+            "nombre_municipio": "San Mateo"
+          },
+          {
+            "oid_municipio": 266,
+            "nombre_municipio": "San Miguel De Sema"
+          },
+          {
+            "oid_municipio": 267,
+            "nombre_municipio": "San Pablo Borbur"
+          },
+          {
+            "oid_municipio": 310,
+            "nombre_municipio": "San Rosa Viterbo"
+          },
+          {
+            "oid_municipio": 243,
+            "nombre_municipio": "Santa María"
+          },
+          {
+            "oid_municipio": 284,
+            "nombre_municipio": "Santa Sofía"
+          },
+          {
+            "oid_municipio": 285,
+            "nombre_municipio": "Santana"
+          },
+          {
+            "oid_municipio": 248,
+            "nombre_municipio": "Sativanorte"
+          },
+          {
+            "oid_municipio": 249,
+            "nombre_municipio": "Sativasur"
+          },
+          {
+            "oid_municipio": 203,
+            "nombre_municipio": "Siachoque"
+          },
+          {
+            "oid_municipio": 250,
+            "nombre_municipio": "Soatá"
+          },
+          {
+            "oid_municipio": 316,
+            "nombre_municipio": "Socha"
+          },
+          {
+            "oid_municipio": 317,
+            "nombre_municipio": "Socotá"
+          },
+          {
+            "oid_municipio": 299,
+            "nombre_municipio": "Sogamoso"
+          },
+          {
+            "oid_municipio": 274,
+            "nombre_municipio": "Somondoco"
+          },
+          {
+            "oid_municipio": 204,
+            "nombre_municipio": "Sora"
+          },
+          {
+            "oid_municipio": 205,
+            "nombre_municipio": "Soracá"
+          },
+          {
+            "oid_municipio": 206,
+            "nombre_municipio": "Sotaquirá"
+          },
+          {
+            "oid_municipio": 251,
+            "nombre_municipio": "Susacón"
+          },
+          {
+            "oid_municipio": 286,
+            "nombre_municipio": "Sutamarchán"
+          },
+          {
+            "oid_municipio": 275,
+            "nombre_municipio": "Sutatenza"
+          },
+          {
+            "oid_municipio": 318,
+            "nombre_municipio": "Tasco"
+          },
+          {
+            "oid_municipio": 276,
+            "nombre_municipio": "Tenza"
+          },
+          {
+            "oid_municipio": 234,
+            "nombre_municipio": "Tibaná"
+          },
+          {
+            "oid_municipio": 300,
+            "nombre_municipio": "Tibasosa"
+          },
+          {
+            "oid_municipio": 287,
+            "nombre_municipio": "Tinjacá"
+          },
+          {
+            "oid_municipio": 252,
+            "nombre_municipio": "Tipacoque"
+          },
+          {
+            "oid_municipio": 207,
+            "nombre_municipio": "Toca"
+          },
+          {
+            "oid_municipio": 288,
+            "nombre_municipio": "Togüí"
+          },
+          {
+            "oid_municipio": 301,
+            "nombre_municipio": "Tópaga"
+          },
+          {
+            "oid_municipio": 302,
+            "nombre_municipio": "Tota"
+          },
+          {
+            "oid_municipio": 208,
+            "nombre_municipio": "Tunja"
+          },
+          {
+            "oid_municipio": 268,
+            "nombre_municipio": "Tununguá"
+          },
+          {
+            "oid_municipio": 235,
+            "nombre_municipio": "Turmequé"
+          },
+          {
+            "oid_municipio": 209,
+            "nombre_municipio": "Tuta"
+          },
+          {
+            "oid_municipio": 311,
+            "nombre_municipio": "Tutazá"
+          },
+          {
+            "oid_municipio": 236,
+            "nombre_municipio": "Umbita"
+          },
+          {
+            "oid_municipio": 210,
+            "nombre_municipio": "Ventaquemada"
+          },
+          {
+            "oid_municipio": 289,
+            "nombre_municipio": "Villa De Leyva"
+          },
+          {
+            "oid_municipio": 237,
+            "nombre_municipio": "Viracachá"
+          },
+          {
+            "oid_municipio": 227,
+            "nombre_municipio": "Zetaquira"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 6,
+        "nombre_departamento": "Caldas",
+        "municipios": [
+          {
+            "oid_municipio": 338,
+            "nombre_municipio": "Aguadas"
+          },
+          {
+            "oid_municipio": 328,
+            "nombre_municipio": "Anserma"
+          },
+          {
+            "oid_municipio": 339,
+            "nombre_municipio": "Aranzazu"
+          },
+          {
+            "oid_municipio": 329,
+            "nombre_municipio": "Belalcázar"
+          },
+          {
+            "oid_municipio": 333,
+            "nombre_municipio": "Chinchina"
+          },
+          {
+            "oid_municipio": 319,
+            "nombre_municipio": "Filadelfia"
+          },
+          {
+            "oid_municipio": 342,
+            "nombre_municipio": "La Dorada"
+          },
+          {
+            "oid_municipio": 320,
+            "nombre_municipio": "La Merced"
+          },
+          {
+            "oid_municipio": 334,
+            "nombre_municipio": "Manizales"
+          },
+          {
+            "oid_municipio": 324,
+            "nombre_municipio": "Manzanares"
+          },
+          {
+            "oid_municipio": 321,
+            "nombre_municipio": "Marmato"
+          },
+          {
+            "oid_municipio": 325,
+            "nombre_municipio": "Marquetalia"
+          },
+          {
+            "oid_municipio": 326,
+            "nombre_municipio": "Marulanda"
+          },
+          {
+            "oid_municipio": 335,
+            "nombre_municipio": "Neira"
+          },
+          {
+            "oid_municipio": 343,
+            "nombre_municipio": "Norcasia"
+          },
+          {
+            "oid_municipio": 340,
+            "nombre_municipio": "Pácora"
+          },
+          {
+            "oid_municipio": 336,
+            "nombre_municipio": "Palestina"
+          },
+          {
+            "oid_municipio": 327,
+            "nombre_municipio": "Pensilvania"
+          },
+          {
+            "oid_municipio": 322,
+            "nombre_municipio": "Riosucio"
+          },
+          {
+            "oid_municipio": 330,
+            "nombre_municipio": "Risaralda"
+          },
+          {
+            "oid_municipio": 341,
+            "nombre_municipio": "Salamina"
+          },
+          {
+            "oid_municipio": 344,
+            "nombre_municipio": "Samaná"
+          },
+          {
+            "oid_municipio": 331,
+            "nombre_municipio": "San José"
+          },
+          {
+            "oid_municipio": 323,
+            "nombre_municipio": "Supía"
+          },
+          {
+            "oid_municipio": 345,
+            "nombre_municipio": "Victoria"
+          },
+          {
+            "oid_municipio": 337,
+            "nombre_municipio": "Villamaria"
+          },
+          {
+            "oid_municipio": 332,
+            "nombre_municipio": "Viterbo"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 7,
+        "nombre_departamento": "Caquetá",
+        "municipios": [
+          {
+            "oid_municipio": 346,
+            "nombre_municipio": "Albania"
+          },
+          {
+            "oid_municipio": 347,
+            "nombre_municipio": "Belén De Los Andaquíes"
+          },
+          {
+            "oid_municipio": 348,
+            "nombre_municipio": "Cartagena Del Chairá"
+          },
+          {
+            "oid_municipio": 349,
+            "nombre_municipio": "Currillo"
+          },
+          {
+            "oid_municipio": 350,
+            "nombre_municipio": "El Doncello"
+          },
+          {
+            "oid_municipio": 351,
+            "nombre_municipio": "El Paujil"
+          },
+          {
+            "oid_municipio": 352,
+            "nombre_municipio": "Florencia"
+          },
+          {
+            "oid_municipio": 353,
+            "nombre_municipio": "La Montañita"
+          },
+          {
+            "oid_municipio": 354,
+            "nombre_municipio": "Milán"
+          },
+          {
+            "oid_municipio": 355,
+            "nombre_municipio": "Morelia"
+          },
+          {
+            "oid_municipio": 356,
+            "nombre_municipio": "Puerto Rico"
+          },
+          {
+            "oid_municipio": 357,
+            "nombre_municipio": "San José Del Fragua"
+          },
+          {
+            "oid_municipio": 358,
+            "nombre_municipio": "San Vicente Del Caguán"
+          },
+          {
+            "oid_municipio": 359,
+            "nombre_municipio": "Solano"
+          },
+          {
+            "oid_municipio": 360,
+            "nombre_municipio": "Solita"
+          },
+          {
+            "oid_municipio": 361,
+            "nombre_municipio": "Valparaiso"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 8,
+        "nombre_departamento": "Cauca",
+        "municipios": [
+          {
+            "oid_municipio": 391,
+            "nombre_municipio": "Almaguer"
+          },
+          {
+            "oid_municipio": 392,
+            "nombre_municipio": "Argelia"
+          },
+          {
+            "oid_municipio": 393,
+            "nombre_municipio": "Balboa"
+          },
+          {
+            "oid_municipio": 394,
+            "nombre_municipio": "Bolívar"
+          },
+          {
+            "oid_municipio": 371,
+            "nombre_municipio": "Buenos Aires"
+          },
+          {
+            "oid_municipio": 362,
+            "nombre_municipio": "Cajibío"
+          },
+          {
+            "oid_municipio": 383,
+            "nombre_municipio": "Caldono"
+          },
+          {
+            "oid_municipio": 372,
+            "nombre_municipio": "Caloto"
+          },
+          {
+            "oid_municipio": 373,
+            "nombre_municipio": "Corinto"
+          },
+          {
+            "oid_municipio": 363,
+            "nombre_municipio": "El Tambo"
+          },
+          {
+            "oid_municipio": 395,
+            "nombre_municipio": "Florencia"
+          },
+          {
+            "oid_municipio": 396,
+            "nombre_municipio": "Guachene"
+          },
+          {
+            "oid_municipio": 380,
+            "nombre_municipio": "Guapi"
+          },
+          {
+            "oid_municipio": 384,
+            "nombre_municipio": "Inzá"
+          },
+          {
+            "oid_municipio": 385,
+            "nombre_municipio": "Jambaló"
+          },
+          {
+            "oid_municipio": 364,
+            "nombre_municipio": "La Sierra"
+          },
+          {
+            "oid_municipio": 397,
+            "nombre_municipio": "La Vega"
+          },
+          {
+            "oid_municipio": 381,
+            "nombre_municipio": "Lopez"
+          },
+          {
+            "oid_municipio": 398,
+            "nombre_municipio": "Mercaderes"
+          },
+          {
+            "oid_municipio": 374,
+            "nombre_municipio": "Miranda"
+          },
+          {
+            "oid_municipio": 365,
+            "nombre_municipio": "Morales"
+          },
+          {
+            "oid_municipio": 375,
+            "nombre_municipio": "Padilla"
+          },
+          {
+            "oid_municipio": 386,
+            "nombre_municipio": "Páez"
+          },
+          {
+            "oid_municipio": 399,
+            "nombre_municipio": "Patía"
+          },
+          {
+            "oid_municipio": 400,
+            "nombre_municipio": "Piamonte"
+          },
+          {
+            "oid_municipio": 366,
+            "nombre_municipio": "Piendamó - Tunía"
+          },
+          {
+            "oid_municipio": 367,
+            "nombre_municipio": "Popayán"
+          },
+          {
+            "oid_municipio": 376,
+            "nombre_municipio": "Puerto Tejada"
+          },
+          {
+            "oid_municipio": 387,
+            "nombre_municipio": "Purace"
+          },
+          {
+            "oid_municipio": 368,
+            "nombre_municipio": "Rosas"
+          },
+          {
+            "oid_municipio": 401,
+            "nombre_municipio": "San Sebastian"
+          },
+          {
+            "oid_municipio": 402,
+            "nombre_municipio": "Santa Rosa"
+          },
+          {
+            "oid_municipio": 377,
+            "nombre_municipio": "Santander De Quilichao"
+          },
+          {
+            "oid_municipio": 388,
+            "nombre_municipio": "Silvia"
+          },
+          {
+            "oid_municipio": 369,
+            "nombre_municipio": "Sotara"
+          },
+          {
+            "oid_municipio": 378,
+            "nombre_municipio": "Suárez"
+          },
+          {
+            "oid_municipio": 403,
+            "nombre_municipio": "Sucre"
+          },
+          {
+            "oid_municipio": 370,
+            "nombre_municipio": "Timbio"
+          },
+          {
+            "oid_municipio": 382,
+            "nombre_municipio": "Timbiquí"
+          },
+          {
+            "oid_municipio": 389,
+            "nombre_municipio": "Toribío"
+          },
+          {
+            "oid_municipio": 390,
+            "nombre_municipio": "Totoró"
+          },
+          {
+            "oid_municipio": 379,
+            "nombre_municipio": "Villa Rica"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 9,
+        "nombre_departamento": "Cesar",
+        "municipios": [
+          {
+            "oid_municipio": 421,
+            "nombre_municipio": "Aguachica"
+          },
+          {
+            "oid_municipio": 415,
+            "nombre_municipio": "Agustín Codazzi"
+          },
+          {
+            "oid_municipio": 411,
+            "nombre_municipio": "Astrea"
+          },
+          {
+            "oid_municipio": 404,
+            "nombre_municipio": "Becerril"
+          },
+          {
+            "oid_municipio": 412,
+            "nombre_municipio": "Bosconia"
+          },
+          {
+            "oid_municipio": 405,
+            "nombre_municipio": "Chimichagua"
+          },
+          {
+            "oid_municipio": 406,
+            "nombre_municipio": "Chiriguana"
+          },
+          {
+            "oid_municipio": 407,
+            "nombre_municipio": "Curumaní"
+          },
+          {
+            "oid_municipio": 413,
+            "nombre_municipio": "El Copey"
+          },
+          {
+            "oid_municipio": 414,
+            "nombre_municipio": "El Paso"
+          },
+          {
+            "oid_municipio": 422,
+            "nombre_municipio": "Gamarra"
+          },
+          {
+            "oid_municipio": 423,
+            "nombre_municipio": "González"
+          },
+          {
+            "oid_municipio": 424,
+            "nombre_municipio": "La Gloria"
+          },
+          {
+            "oid_municipio": 408,
+            "nombre_municipio": "La Jagua De Ibirico"
+          },
+          {
+            "oid_municipio": 416,
+            "nombre_municipio": "La Paz"
+          },
+          {
+            "oid_municipio": 417,
+            "nombre_municipio": "Manaure Balcón del Cesar"
+          },
+          {
+            "oid_municipio": 409,
+            "nombre_municipio": "Pailitas"
+          },
+          {
+            "oid_municipio": 425,
+            "nombre_municipio": "Pelaya"
+          },
+          {
+            "oid_municipio": 418,
+            "nombre_municipio": "Pueblo Bello"
+          },
+          {
+            "oid_municipio": 426,
+            "nombre_municipio": "Río De Oro"
+          },
+          {
+            "oid_municipio": 427,
+            "nombre_municipio": "San Alberto"
+          },
+          {
+            "oid_municipio": 419,
+            "nombre_municipio": "San Diego"
+          },
+          {
+            "oid_municipio": 428,
+            "nombre_municipio": "San Martín"
+          },
+          {
+            "oid_municipio": 410,
+            "nombre_municipio": "Tamalameque"
+          },
+          {
+            "oid_municipio": 420,
+            "nombre_municipio": "Valledupar"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 10,
+        "nombre_departamento": "Córdoba",
+        "municipios": [
+          {
+            "oid_municipio": 446,
+            "nombre_municipio": "Ayapel"
+          },
+          {
+            "oid_municipio": 447,
+            "nombre_municipio": "Buenavista"
+          },
+          {
+            "oid_municipio": 437,
+            "nombre_municipio": "Canalete"
+          },
+          {
+            "oid_municipio": 453,
+            "nombre_municipio": "Cereté"
+          },
+          {
+            "oid_municipio": 431,
+            "nombre_municipio": "Chimá"
+          },
+          {
+            "oid_municipio": 443,
+            "nombre_municipio": "Chinú"
+          },
+          {
+            "oid_municipio": 454,
+            "nombre_municipio": "Ciénaga De Oro"
+          },
+          {
+            "oid_municipio": 432,
+            "nombre_municipio": "Cotorra"
+          },
+          {
+            "oid_municipio": 448,
+            "nombre_municipio": "La Apartada"
+          },
+          {
+            "oid_municipio": 433,
+            "nombre_municipio": "Lorica"
+          },
+          {
+            "oid_municipio": 438,
+            "nombre_municipio": "Los Córdobas"
+          },
+          {
+            "oid_municipio": 434,
+            "nombre_municipio": "Momil"
+          },
+          {
+            "oid_municipio": 439,
+            "nombre_municipio": "Moñitos"
+          },
+          {
+            "oid_municipio": 449,
+            "nombre_municipio": "Montelíbano"
+          },
+          {
+            "oid_municipio": 436,
+            "nombre_municipio": "Montería"
+          },
+          {
+            "oid_municipio": 450,
+            "nombre_municipio": "Planeta Rica"
+          },
+          {
+            "oid_municipio": 451,
+            "nombre_municipio": "Pueblo Nuevo"
+          },
+          {
+            "oid_municipio": 440,
+            "nombre_municipio": "Puerto Escondido"
+          },
+          {
+            "oid_municipio": 452,
+            "nombre_municipio": "Puerto Libertador"
+          },
+          {
+            "oid_municipio": 435,
+            "nombre_municipio": "Purísima"
+          },
+          {
+            "oid_municipio": 444,
+            "nombre_municipio": "Sahagún"
+          },
+          {
+            "oid_municipio": 445,
+            "nombre_municipio": "San Andrés Sotavento"
+          },
+          {
+            "oid_municipio": 441,
+            "nombre_municipio": "San Antero"
+          },
+          {
+            "oid_municipio": 442,
+            "nombre_municipio": "San Bernardo Del Viento"
+          },
+          {
+            "oid_municipio": 455,
+            "nombre_municipio": "San Carlos"
+          },
+          {
+            "oid_municipio": 456,
+            "nombre_municipio": "San Jose de Ure"
+          },
+          {
+            "oid_municipio": 457,
+            "nombre_municipio": "San Pelayo"
+          },
+          {
+            "oid_municipio": 429,
+            "nombre_municipio": "Tierralta"
+          },
+          {
+            "oid_municipio": 430,
+            "nombre_municipio": "Valencia"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 11,
+        "nombre_departamento": "Cundinamarca",
+        "municipios": [
+          {
+            "oid_municipio": 465,
+            "nombre_municipio": "Agua De Dios"
+          },
+          {
+            "oid_municipio": 476,
+            "nombre_municipio": "Albán"
+          },
+          {
+            "oid_municipio": 554,
+            "nombre_municipio": "Anapoima"
+          },
+          {
+            "oid_municipio": 555,
+            "nombre_municipio": "Anolaima"
+          },
+          {
+            "oid_municipio": 556,
+            "nombre_municipio": "Apulo"
+          },
+          {
+            "oid_municipio": 544,
+            "nombre_municipio": "Arbeláez"
+          },
+          {
+            "oid_municipio": 496,
+            "nombre_municipio": "Beltrán"
+          },
+          {
+            "oid_municipio": 497,
+            "nombre_municipio": "Bituima"
+          },
+          {
+            "oid_municipio": 532,
+            "nombre_municipio": "Bojacá"
+          },
+          {
+            "oid_municipio": 545,
+            "nombre_municipio": "Cabrera"
+          },
+          {
+            "oid_municipio": 557,
+            "nombre_municipio": "Cachipay"
+          },
+          {
+            "oid_municipio": 523,
+            "nombre_municipio": "Cajicá"
+          },
+          {
+            "oid_municipio": 473,
+            "nombre_municipio": "Caparrapí"
+          },
+          {
+            "oid_municipio": 505,
+            "nombre_municipio": "Caqueza"
+          },
+          {
+            "oid_municipio": 564,
+            "nombre_municipio": "Carmen De Carupa"
+          },
+          {
+            "oid_municipio": 498,
+            "nombre_municipio": "Chaguaní"
+          },
+          {
+            "oid_municipio": 524,
+            "nombre_municipio": "Chía"
+          },
+          {
+            "oid_municipio": 506,
+            "nombre_municipio": "Chipaque"
+          },
+          {
+            "oid_municipio": 507,
+            "nombre_municipio": "Choachí"
+          },
+          {
+            "oid_municipio": 458,
+            "nombre_municipio": "Chocontá"
+          },
+          {
+            "oid_municipio": 525,
+            "nombre_municipio": "Cogua"
+          },
+          {
+            "oid_municipio": 533,
+            "nombre_municipio": "Cota"
+          },
+          {
+            "oid_municipio": 565,
+            "nombre_municipio": "Cucunubá"
+          },
+          {
+            "oid_municipio": 558,
+            "nombre_municipio": "El Colegio"
+          },
+          {
+            "oid_municipio": 515,
+            "nombre_municipio": "El Peñón"
+          },
+          {
+            "oid_municipio": 534,
+            "nombre_municipio": "El Rosal"
+          },
+          {
+            "oid_municipio": 535,
+            "nombre_municipio": "Facatativá"
+          },
+          {
+            "oid_municipio": 508,
+            "nombre_municipio": "Fomeque"
+          },
+          {
+            "oid_municipio": 509,
+            "nombre_municipio": "Fosca"
+          },
+          {
+            "oid_municipio": 536,
+            "nombre_municipio": "Funza"
+          },
+          {
+            "oid_municipio": 566,
+            "nombre_municipio": "Fúquene"
+          },
+          {
+            "oid_municipio": 546,
+            "nombre_municipio": "Fusagasugá"
+          },
+          {
+            "oid_municipio": 488,
+            "nombre_municipio": "Gachala"
+          },
+          {
+            "oid_municipio": 526,
+            "nombre_municipio": "Gachancipá"
+          },
+          {
+            "oid_municipio": 489,
+            "nombre_municipio": "Gacheta"
+          },
+          {
+            "oid_municipio": 490,
+            "nombre_municipio": "Gama"
+          },
+          {
+            "oid_municipio": 466,
+            "nombre_municipio": "Girardot"
+          },
+          {
+            "oid_municipio": 547,
+            "nombre_municipio": "Granada"
+          },
+          {
+            "oid_municipio": 567,
+            "nombre_municipio": "Guachetá"
+          },
+          {
+            "oid_municipio": 474,
+            "nombre_municipio": "Guaduas"
+          },
+          {
+            "oid_municipio": 491,
+            "nombre_municipio": "Guasca"
+          },
+          {
+            "oid_municipio": 467,
+            "nombre_municipio": "Guataquí"
+          },
+          {
+            "oid_municipio": 492,
+            "nombre_municipio": "Guatavita"
+          },
+          {
+            "oid_municipio": 499,
+            "nombre_municipio": "Guayabal De Siquima"
+          },
+          {
+            "oid_municipio": 510,
+            "nombre_municipio": "Guayabetal"
+          },
+          {
+            "oid_municipio": 511,
+            "nombre_municipio": "Gutiérrez"
+          },
+          {
+            "oid_municipio": 468,
+            "nombre_municipio": "Jerusalén"
+          },
+          {
+            "oid_municipio": 493,
+            "nombre_municipio": "Junín"
+          },
+          {
+            "oid_municipio": 494,
+            "nombre_municipio": "La Calera"
+          },
+          {
+            "oid_municipio": 559,
+            "nombre_municipio": "La Mesa"
+          },
+          {
+            "oid_municipio": 516,
+            "nombre_municipio": "La Palma"
+          },
+          {
+            "oid_municipio": 477,
+            "nombre_municipio": "La Peña"
+          },
+          {
+            "oid_municipio": 478,
+            "nombre_municipio": "La Vega"
+          },
+          {
+            "oid_municipio": 568,
+            "nombre_municipio": "Lenguazaque"
+          },
+          {
+            "oid_municipio": 459,
+            "nombre_municipio": "Macheta"
+          },
+          {
+            "oid_municipio": 537,
+            "nombre_municipio": "Madrid"
+          },
+          {
+            "oid_municipio": 460,
+            "nombre_municipio": "Manta"
+          },
+          {
+            "oid_municipio": 503,
+            "nombre_municipio": "Medina"
+          },
+          {
+            "oid_municipio": 538,
+            "nombre_municipio": "Mosquera"
+          },
+          {
+            "oid_municipio": 469,
+            "nombre_municipio": "Nariño"
+          },
+          {
+            "oid_municipio": 527,
+            "nombre_municipio": "Nemocon"
+          },
+          {
+            "oid_municipio": 470,
+            "nombre_municipio": "Nilo"
+          },
+          {
+            "oid_municipio": 479,
+            "nombre_municipio": "Nimaima"
+          },
+          {
+            "oid_municipio": 480,
+            "nombre_municipio": "Nocaima"
+          },
+          {
+            "oid_municipio": 517,
+            "nombre_municipio": "Pacho"
+          },
+          {
+            "oid_municipio": 518,
+            "nombre_municipio": "Paime"
+          },
+          {
+            "oid_municipio": 548,
+            "nombre_municipio": "Pandi"
+          },
+          {
+            "oid_municipio": 504,
+            "nombre_municipio": "Paratebueno"
+          },
+          {
+            "oid_municipio": 549,
+            "nombre_municipio": "Pasca"
+          },
+          {
+            "oid_municipio": 475,
+            "nombre_municipio": "Puerto Salgar"
+          },
+          {
+            "oid_municipio": 500,
+            "nombre_municipio": "Puli"
+          },
+          {
+            "oid_municipio": 481,
+            "nombre_municipio": "Quebradanegra"
+          },
+          {
+            "oid_municipio": 512,
+            "nombre_municipio": "Quetame"
+          },
+          {
+            "oid_municipio": 560,
+            "nombre_municipio": "Quipile"
+          },
+          {
+            "oid_municipio": 471,
+            "nombre_municipio": "Ricaurte"
+          },
+          {
+            "oid_municipio": 561,
+            "nombre_municipio": "San Antonio De Tequendama"
+          },
+          {
+            "oid_municipio": 550,
+            "nombre_municipio": "San Bernardo"
+          },
+          {
+            "oid_municipio": 519,
+            "nombre_municipio": "San Cayetano"
+          },
+          {
+            "oid_municipio": 482,
+            "nombre_municipio": "San Francisco"
+          },
+          {
+            "oid_municipio": 501,
+            "nombre_municipio": "San Juan De Río Seco"
+          },
+          {
+            "oid_municipio": 483,
+            "nombre_municipio": "Sasaima"
+          },
+          {
+            "oid_municipio": 461,
+            "nombre_municipio": "Sesquilé"
+          },
+          {
+            "oid_municipio": 542,
+            "nombre_municipio": "Sibaté"
+          },
+          {
+            "oid_municipio": 551,
+            "nombre_municipio": "Silvania"
+          },
+          {
+            "oid_municipio": 569,
+            "nombre_municipio": "Simijaca"
+          },
+          {
+            "oid_municipio": 543,
+            "nombre_municipio": "Soacha"
+          },
+          {
+            "oid_municipio": 528,
+            "nombre_municipio": "Sopó"
+          },
+          {
+            "oid_municipio": 539,
+            "nombre_municipio": "Subachoque"
+          },
+          {
+            "oid_municipio": 462,
+            "nombre_municipio": "Suesca"
+          },
+          {
+            "oid_municipio": 484,
+            "nombre_municipio": "Supatá"
+          },
+          {
+            "oid_municipio": 570,
+            "nombre_municipio": "Susa"
+          },
+          {
+            "oid_municipio": 571,
+            "nombre_municipio": "Sutatausa"
+          },
+          {
+            "oid_municipio": 529,
+            "nombre_municipio": "Tabio"
+          },
+          {
+            "oid_municipio": 572,
+            "nombre_municipio": "Tausa"
+          },
+          {
+            "oid_municipio": 562,
+            "nombre_municipio": "Tena"
+          },
+          {
+            "oid_municipio": 540,
+            "nombre_municipio": "Tenjo"
+          },
+          {
+            "oid_municipio": 552,
+            "nombre_municipio": "Tibacuy"
+          },
+          {
+            "oid_municipio": 463,
+            "nombre_municipio": "Tibirita"
+          },
+          {
+            "oid_municipio": 472,
+            "nombre_municipio": "Tocaima"
+          },
+          {
+            "oid_municipio": 530,
+            "nombre_municipio": "Tocancipá"
+          },
+          {
+            "oid_municipio": 520,
+            "nombre_municipio": "Topaipi"
+          },
+          {
+            "oid_municipio": 495,
+            "nombre_municipio": "Ubalá"
+          },
+          {
+            "oid_municipio": 513,
+            "nombre_municipio": "Ubaque"
+          },
+          {
+            "oid_municipio": 573,
+            "nombre_municipio": "Ubate"
+          },
+          {
+            "oid_municipio": 514,
+            "nombre_municipio": "Une"
+          },
+          {
+            "oid_municipio": 485,
+            "nombre_municipio": "Útica"
+          },
+          {
+            "oid_municipio": 553,
+            "nombre_municipio": "Venecia"
+          },
+          {
+            "oid_municipio": 486,
+            "nombre_municipio": "Vergara"
+          },
+          {
+            "oid_municipio": 502,
+            "nombre_municipio": "Vianí"
+          },
+          {
+            "oid_municipio": 521,
+            "nombre_municipio": "Villagomez"
+          },
+          {
+            "oid_municipio": 464,
+            "nombre_municipio": "Villapinzón"
+          },
+          {
+            "oid_municipio": 487,
+            "nombre_municipio": "Villeta"
+          },
+          {
+            "oid_municipio": 563,
+            "nombre_municipio": "Viotá"
+          },
+          {
+            "oid_municipio": 522,
+            "nombre_municipio": "Yacopí"
+          },
+          {
+            "oid_municipio": 541,
+            "nombre_municipio": "Zipacon"
+          },
+          {
+            "oid_municipio": 531,
+            "nombre_municipio": "Zipaquirá"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 12,
+        "nombre_departamento": "Chocó",
+        "municipios": [
+          {
+            "oid_municipio": 582,
+            "nombre_municipio": "Acandí"
+          },
+          {
+            "oid_municipio": 590,
+            "nombre_municipio": "Alto Baudó"
+          },
+          {
+            "oid_municipio": 574,
+            "nombre_municipio": "Atrato"
+          },
+          {
+            "oid_municipio": 575,
+            "nombre_municipio": "Bagadó"
+          },
+          {
+            "oid_municipio": 587,
+            "nombre_municipio": "Bahía Solano"
+          },
+          {
+            "oid_municipio": 591,
+            "nombre_municipio": "Bajo Baudó"
+          },
+          {
+            "oid_municipio": 583,
+            "nombre_municipio": "Belén De Bajira"
+          },
+          {
+            "oid_municipio": 576,
+            "nombre_municipio": "Bojaya"
+          },
+          {
+            "oid_municipio": 594,
+            "nombre_municipio": "Canton De San Pablo"
+          },
+          {
+            "oid_municipio": 584,
+            "nombre_municipio": "Carmen Del Darién"
+          },
+          {
+            "oid_municipio": 595,
+            "nombre_municipio": "Certegui"
+          },
+          {
+            "oid_municipio": 596,
+            "nombre_municipio": "Condoto"
+          },
+          {
+            "oid_municipio": 577,
+            "nombre_municipio": "El Carmen De Atrato"
+          },
+          {
+            "oid_municipio": 592,
+            "nombre_municipio": "El Litoral Del San Juan"
+          },
+          {
+            "oid_municipio": 597,
+            "nombre_municipio": "Itsmina"
+          },
+          {
+            "oid_municipio": 588,
+            "nombre_municipio": "Juradó"
+          },
+          {
+            "oid_municipio": 578,
+            "nombre_municipio": "Lloró"
+          },
+          {
+            "oid_municipio": 579,
+            "nombre_municipio": "Medio Atrato"
+          },
+          {
+            "oid_municipio": 593,
+            "nombre_municipio": "Medio Baudó"
+          },
+          {
+            "oid_municipio": 598,
+            "nombre_municipio": "Medio San Juan"
+          },
+          {
+            "oid_municipio": 599,
+            "nombre_municipio": "Nóvita"
+          },
+          {
+            "oid_municipio": 589,
+            "nombre_municipio": "Nuquí"
+          },
+          {
+            "oid_municipio": 580,
+            "nombre_municipio": "Quibdó"
+          },
+          {
+            "oid_municipio": 600,
+            "nombre_municipio": "Río Frío"
+          },
+          {
+            "oid_municipio": 581,
+            "nombre_municipio": "Rio Quito"
+          },
+          {
+            "oid_municipio": 585,
+            "nombre_municipio": "Riosucio"
+          },
+          {
+            "oid_municipio": 601,
+            "nombre_municipio": "San José Del Palmar"
+          },
+          {
+            "oid_municipio": 602,
+            "nombre_municipio": "Sipí"
+          },
+          {
+            "oid_municipio": 603,
+            "nombre_municipio": "Tadó"
+          },
+          {
+            "oid_municipio": 586,
+            "nombre_municipio": "Unguía"
+          },
+          {
+            "oid_municipio": 604,
+            "nombre_municipio": "Union Panamericana"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 13,
+        "nombre_departamento": "Huila",
+        "municipios": [
+          {
+            "oid_municipio": 633,
+            "nombre_municipio": "Acevedo"
+          },
+          {
+            "oid_municipio": 605,
+            "nombre_municipio": "Agrado"
+          },
+          {
+            "oid_municipio": 613,
+            "nombre_municipio": "Aipe"
+          },
+          {
+            "oid_municipio": 614,
+            "nombre_municipio": "Algeciras"
+          },
+          {
+            "oid_municipio": 606,
+            "nombre_municipio": "Altamira"
+          },
+          {
+            "oid_municipio": 615,
+            "nombre_municipio": "Baraya"
+          },
+          {
+            "oid_municipio": 616,
+            "nombre_municipio": "Campoalegre"
+          },
+          {
+            "oid_municipio": 617,
+            "nombre_municipio": "Colombia"
+          },
+          {
+            "oid_municipio": 634,
+            "nombre_municipio": "Elías"
+          },
+          {
+            "oid_municipio": 607,
+            "nombre_municipio": "Garzón"
+          },
+          {
+            "oid_municipio": 608,
+            "nombre_municipio": "Gigante"
+          },
+          {
+            "oid_municipio": 609,
+            "nombre_municipio": "Guadalupe"
+          },
+          {
+            "oid_municipio": 618,
+            "nombre_municipio": "Hobo"
+          },
+          {
+            "oid_municipio": 619,
+            "nombre_municipio": "Iquira"
+          },
+          {
+            "oid_municipio": 635,
+            "nombre_municipio": "Isnos"
+          },
+          {
+            "oid_municipio": 628,
+            "nombre_municipio": "La Argentina"
+          },
+          {
+            "oid_municipio": 629,
+            "nombre_municipio": "La Plata"
+          },
+          {
+            "oid_municipio": 630,
+            "nombre_municipio": "Nátaga"
+          },
+          {
+            "oid_municipio": 620,
+            "nombre_municipio": "Neiva"
+          },
+          {
+            "oid_municipio": 636,
+            "nombre_municipio": "Oporapa"
+          },
+          {
+            "oid_municipio": 631,
+            "nombre_municipio": "Paicol"
+          },
+          {
+            "oid_municipio": 621,
+            "nombre_municipio": "Palermo"
+          },
+          {
+            "oid_municipio": 637,
+            "nombre_municipio": "Palestina"
+          },
+          {
+            "oid_municipio": 610,
+            "nombre_municipio": "Pital"
+          },
+          {
+            "oid_municipio": 638,
+            "nombre_municipio": "Pitalito"
+          },
+          {
+            "oid_municipio": 622,
+            "nombre_municipio": "Rivera"
+          },
+          {
+            "oid_municipio": 639,
+            "nombre_municipio": "Saladoblanco"
+          },
+          {
+            "oid_municipio": 640,
+            "nombre_municipio": "San Agustín"
+          },
+          {
+            "oid_municipio": 623,
+            "nombre_municipio": "Santa María"
+          },
+          {
+            "oid_municipio": 611,
+            "nombre_municipio": "Suaza"
+          },
+          {
+            "oid_municipio": 612,
+            "nombre_municipio": "Tarqui"
+          },
+          {
+            "oid_municipio": 624,
+            "nombre_municipio": "Tello"
+          },
+          {
+            "oid_municipio": 625,
+            "nombre_municipio": "Teruel"
+          },
+          {
+            "oid_municipio": 632,
+            "nombre_municipio": "Tesalia"
+          },
+          {
+            "oid_municipio": 641,
+            "nombre_municipio": "Timaná"
+          },
+          {
+            "oid_municipio": 626,
+            "nombre_municipio": "Villavieja"
+          },
+          {
+            "oid_municipio": 627,
+            "nombre_municipio": "Yaguará"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 14,
+        "nombre_departamento": "La Guajira",
+        "municipios": [
+          {
+            "oid_municipio": 642,
+            "nombre_municipio": "Albania"
+          },
+          {
+            "oid_municipio": 648,
+            "nombre_municipio": "Barrancas"
+          },
+          {
+            "oid_municipio": 643,
+            "nombre_municipio": "Dibulla"
+          },
+          {
+            "oid_municipio": 649,
+            "nombre_municipio": "Distraccion"
+          },
+          {
+            "oid_municipio": 650,
+            "nombre_municipio": "El Molino"
+          },
+          {
+            "oid_municipio": 651,
+            "nombre_municipio": "Fonseca"
+          },
+          {
+            "oid_municipio": 652,
+            "nombre_municipio": "Hatonuevo"
+          },
+          {
+            "oid_municipio": 653,
+            "nombre_municipio": "La Jagua Del Pilar"
+          },
+          {
+            "oid_municipio": 644,
+            "nombre_municipio": "Maicao"
+          },
+          {
+            "oid_municipio": 645,
+            "nombre_municipio": "Manaure"
+          },
+          {
+            "oid_municipio": 646,
+            "nombre_municipio": "Riohacha"
+          },
+          {
+            "oid_municipio": 654,
+            "nombre_municipio": "San Juan Del Cesar"
+          },
+          {
+            "oid_municipio": 647,
+            "nombre_municipio": "Uribia"
+          },
+          {
+            "oid_municipio": 655,
+            "nombre_municipio": "Urumita"
+          },
+          {
+            "oid_municipio": 656,
+            "nombre_municipio": "Villanueva"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 15,
+        "nombre_departamento": "Magdalena",
+        "municipios": [
+          {
+            "oid_municipio": 663,
+            "nombre_municipio": "Algarrobo"
+          },
+          {
+            "oid_municipio": 664,
+            "nombre_municipio": "Aracataca"
+          },
+          {
+            "oid_municipio": 657,
+            "nombre_municipio": "Ariguaní"
+          },
+          {
+            "oid_municipio": 670,
+            "nombre_municipio": "Cerro San Antonio"
+          },
+          {
+            "oid_municipio": 658,
+            "nombre_municipio": "Chibolo"
+          },
+          {
+            "oid_municipio": 665,
+            "nombre_municipio": "Ciénaga"
+          },
+          {
+            "oid_municipio": 671,
+            "nombre_municipio": "Concordia"
+          },
+          {
+            "oid_municipio": 680,
+            "nombre_municipio": "El Banco"
+          },
+          {
+            "oid_municipio": 672,
+            "nombre_municipio": "El Piñon"
+          },
+          {
+            "oid_municipio": 666,
+            "nombre_municipio": "El Reten"
+          },
+          {
+            "oid_municipio": 667,
+            "nombre_municipio": "Fundacion"
+          },
+          {
+            "oid_municipio": 681,
+            "nombre_municipio": "Guamal"
+          },
+          {
+            "oid_municipio": 659,
+            "nombre_municipio": "Nueva Granada"
+          },
+          {
+            "oid_municipio": 673,
+            "nombre_municipio": "Pedraza"
+          },
+          {
+            "oid_municipio": 682,
+            "nombre_municipio": "Pijiño Del Carmen"
+          },
+          {
+            "oid_municipio": 674,
+            "nombre_municipio": "Pivijay"
+          },
+          {
+            "oid_municipio": 660,
+            "nombre_municipio": "Plato"
+          },
+          {
+            "oid_municipio": 668,
+            "nombre_municipio": "Pueblo Viejo"
+          },
+          {
+            "oid_municipio": 675,
+            "nombre_municipio": "Remolino"
+          },
+          {
+            "oid_municipio": 661,
+            "nombre_municipio": "Sabanas De San Angel"
+          },
+          {
+            "oid_municipio": 676,
+            "nombre_municipio": "Salamina"
+          },
+          {
+            "oid_municipio": 683,
+            "nombre_municipio": "San Sebastian De Buenavista"
+          },
+          {
+            "oid_municipio": 684,
+            "nombre_municipio": "San Zenon"
+          },
+          {
+            "oid_municipio": 685,
+            "nombre_municipio": "Santa Ana"
+          },
+          {
+            "oid_municipio": 686,
+            "nombre_municipio": "Santa Barbara De Pinto"
+          },
+          {
+            "oid_municipio": 679,
+            "nombre_municipio": "Santa Marta"
+          },
+          {
+            "oid_municipio": 677,
+            "nombre_municipio": "Sitionuevo"
+          },
+          {
+            "oid_municipio": 662,
+            "nombre_municipio": "Tenerife"
+          },
+          {
+            "oid_municipio": 678,
+            "nombre_municipio": "Zapayan"
+          },
+          {
+            "oid_municipio": 669,
+            "nombre_municipio": "Zona Bananera"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 16,
+        "nombre_departamento": "Meta",
+        "municipios": [
+          {
+            "oid_municipio": 702,
+            "nombre_municipio": "Acacias"
+          },
+          {
+            "oid_municipio": 703,
+            "nombre_municipio": "Barranca De Upía"
+          },
+          {
+            "oid_municipio": 713,
+            "nombre_municipio": "Cabuyaro"
+          },
+          {
+            "oid_municipio": 704,
+            "nombre_municipio": "Castilla La Nueva"
+          },
+          {
+            "oid_municipio": 705,
+            "nombre_municipio": "Cumaral"
+          },
+          {
+            "oid_municipio": 706,
+            "nombre_municipio": "El Calvario"
+          },
+          {
+            "oid_municipio": 687,
+            "nombre_municipio": "El Castillo"
+          },
+          {
+            "oid_municipio": 688,
+            "nombre_municipio": "El Dorado"
+          },
+          {
+            "oid_municipio": 689,
+            "nombre_municipio": "Fuente De Oro"
+          },
+          {
+            "oid_municipio": 690,
+            "nombre_municipio": "Granada"
+          },
+          {
+            "oid_municipio": 707,
+            "nombre_municipio": "Guamal"
+          },
+          {
+            "oid_municipio": 691,
+            "nombre_municipio": "La Macarena"
+          },
+          {
+            "oid_municipio": 693,
+            "nombre_municipio": "Lejanías"
+          },
+          {
+            "oid_municipio": 694,
+            "nombre_municipio": "Mapiripán"
+          },
+          {
+            "oid_municipio": 695,
+            "nombre_municipio": "Mesetas"
+          },
+          {
+            "oid_municipio": 696,
+            "nombre_municipio": "Puerto Concordia"
+          },
+          {
+            "oid_municipio": 714,
+            "nombre_municipio": "Puerto Gaitán"
+          },
+          {
+            "oid_municipio": 697,
+            "nombre_municipio": "Puerto Lleras"
+          },
+          {
+            "oid_municipio": 715,
+            "nombre_municipio": "Puerto Lopez"
+          },
+          {
+            "oid_municipio": 698,
+            "nombre_municipio": "Puerto Rico"
+          },
+          {
+            "oid_municipio": 708,
+            "nombre_municipio": "Restrepo"
+          },
+          {
+            "oid_municipio": 709,
+            "nombre_municipio": "San Carlos de Guaroa"
+          },
+          {
+            "oid_municipio": 699,
+            "nombre_municipio": "San Juan De Arama"
+          },
+          {
+            "oid_municipio": 710,
+            "nombre_municipio": "San Juanito"
+          },
+          {
+            "oid_municipio": 711,
+            "nombre_municipio": "San Luis De Cubarral"
+          },
+          {
+            "oid_municipio": 712,
+            "nombre_municipio": "San Martín"
+          },
+          {
+            "oid_municipio": 692,
+            "nombre_municipio": "Uribe"
+          },
+          {
+            "oid_municipio": 701,
+            "nombre_municipio": "Villavicencio"
+          },
+          {
+            "oid_municipio": 700,
+            "nombre_municipio": "Vistahermosa"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 17,
+        "nombre_departamento": "Nariño",
+        "municipios": [
+          {
+            "oid_municipio": 749,
+            "nombre_municipio": "Alban"
+          },
+          {
+            "oid_municipio": 766,
+            "nombre_municipio": "Aldana"
+          },
+          {
+            "oid_municipio": 726,
+            "nombre_municipio": "Ancuya"
+          },
+          {
+            "oid_municipio": 750,
+            "nombre_municipio": "Arboleda"
+          },
+          {
+            "oid_municipio": 739,
+            "nombre_municipio": "Barbacoas"
+          },
+          {
+            "oid_municipio": 751,
+            "nombre_municipio": "Belen"
+          },
+          {
+            "oid_municipio": 752,
+            "nombre_municipio": "Buesaco"
+          },
+          {
+            "oid_municipio": 716,
+            "nombre_municipio": "Chachagui"
+          },
+          {
+            "oid_municipio": 753,
+            "nombre_municipio": "Colon"
+          },
+          {
+            "oid_municipio": 717,
+            "nombre_municipio": "Consaca"
+          },
+          {
+            "oid_municipio": 767,
+            "nombre_municipio": "Contadero"
+          },
+          {
+            "oid_municipio": 768,
+            "nombre_municipio": "Córdoba"
+          },
+          {
+            "oid_municipio": 769,
+            "nombre_municipio": "Cuaspud"
+          },
+          {
+            "oid_municipio": 770,
+            "nombre_municipio": "Cumbal"
+          },
+          {
+            "oid_municipio": 754,
+            "nombre_municipio": "Cumbitara"
+          },
+          {
+            "oid_municipio": 740,
+            "nombre_municipio": "El Charco"
+          },
+          {
+            "oid_municipio": 718,
+            "nombre_municipio": "El Peñol"
+          },
+          {
+            "oid_municipio": 755,
+            "nombre_municipio": "El Rosario"
+          },
+          {
+            "oid_municipio": 756,
+            "nombre_municipio": "El Tablon De Gomez"
+          },
+          {
+            "oid_municipio": 719,
+            "nombre_municipio": "El Tambo"
+          },
+          {
+            "oid_municipio": 741,
+            "nombre_municipio": "Francisco Pizarro"
+          },
+          {
+            "oid_municipio": 771,
+            "nombre_municipio": "Funes"
+          },
+          {
+            "oid_municipio": 772,
+            "nombre_municipio": "Guachucal"
+          },
+          {
+            "oid_municipio": 727,
+            "nombre_municipio": "Guaitarilla"
+          },
+          {
+            "oid_municipio": 773,
+            "nombre_municipio": "Gualmatan"
+          },
+          {
+            "oid_municipio": 774,
+            "nombre_municipio": "Iles"
+          },
+          {
+            "oid_municipio": 775,
+            "nombre_municipio": "Imues"
+          },
+          {
+            "oid_municipio": 776,
+            "nombre_municipio": "Ipiales"
+          },
+          {
+            "oid_municipio": 757,
+            "nombre_municipio": "La Cruz"
+          },
+          {
+            "oid_municipio": 720,
+            "nombre_municipio": "La Florida"
+          },
+          {
+            "oid_municipio": 728,
+            "nombre_municipio": "La Llanada"
+          },
+          {
+            "oid_municipio": 742,
+            "nombre_municipio": "La Tola"
+          },
+          {
+            "oid_municipio": 758,
+            "nombre_municipio": "La Union"
+          },
+          {
+            "oid_municipio": 759,
+            "nombre_municipio": "Leiva"
+          },
+          {
+            "oid_municipio": 729,
+            "nombre_municipio": "Linares"
+          },
+          {
+            "oid_municipio": 730,
+            "nombre_municipio": "Los Andes"
+          },
+          {
+            "oid_municipio": 743,
+            "nombre_municipio": "Magui"
+          },
+          {
+            "oid_municipio": 731,
+            "nombre_municipio": "Mallama"
+          },
+          {
+            "oid_municipio": 744,
+            "nombre_municipio": "Mosquera"
+          },
+          {
+            "oid_municipio": 721,
+            "nombre_municipio": "Nariño"
+          },
+          {
+            "oid_municipio": 745,
+            "nombre_municipio": "Olaya Herrera"
+          },
+          {
+            "oid_municipio": 732,
+            "nombre_municipio": "Ospina"
+          },
+          {
+            "oid_municipio": 722,
+            "nombre_municipio": "Pasto"
+          },
+          {
+            "oid_municipio": 760,
+            "nombre_municipio": "Policarpa"
+          },
+          {
+            "oid_municipio": 777,
+            "nombre_municipio": "Potosí"
+          },
+          {
+            "oid_municipio": 733,
+            "nombre_municipio": "Providencia"
+          },
+          {
+            "oid_municipio": 778,
+            "nombre_municipio": "Puerres"
+          },
+          {
+            "oid_municipio": 779,
+            "nombre_municipio": "Pupiales"
+          },
+          {
+            "oid_municipio": 734,
+            "nombre_municipio": "Ricaurte"
+          },
+          {
+            "oid_municipio": 746,
+            "nombre_municipio": "Roberto Payan"
+          },
+          {
+            "oid_municipio": 735,
+            "nombre_municipio": "Samaniego"
+          },
+          {
+            "oid_municipio": 748,
+            "nombre_municipio": "San Andrés de Tumaco"
+          },
+          {
+            "oid_municipio": 761,
+            "nombre_municipio": "San Bernardo"
+          },
+          {
+            "oid_municipio": 762,
+            "nombre_municipio": "San Lorenzo"
+          },
+          {
+            "oid_municipio": 763,
+            "nombre_municipio": "San Pablo"
+          },
+          {
+            "oid_municipio": 764,
+            "nombre_municipio": "San Pedro De Cartago"
+          },
+          {
+            "oid_municipio": 723,
+            "nombre_municipio": "Sandoná"
+          },
+          {
+            "oid_municipio": 747,
+            "nombre_municipio": "Santa Barbara"
+          },
+          {
+            "oid_municipio": 736,
+            "nombre_municipio": "Santa Cruz"
+          },
+          {
+            "oid_municipio": 737,
+            "nombre_municipio": "Sapuyes"
+          },
+          {
+            "oid_municipio": 765,
+            "nombre_municipio": "Taminango"
+          },
+          {
+            "oid_municipio": 724,
+            "nombre_municipio": "Tangua"
+          },
+          {
+            "oid_municipio": 738,
+            "nombre_municipio": "Tuquerres"
+          },
+          {
+            "oid_municipio": 725,
+            "nombre_municipio": "Yacuanquer"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 18,
+        "nombre_departamento": "Norte De Santander",
+        "municipios": [
+          {
+            "oid_municipio": 791,
+            "nombre_municipio": "Abrego"
+          },
+          {
+            "oid_municipio": 780,
+            "nombre_municipio": "Arboledas"
+          },
+          {
+            "oid_municipio": 813,
+            "nombre_municipio": "Bochalema"
+          },
+          {
+            "oid_municipio": 787,
+            "nombre_municipio": "Bucarasica"
+          },
+          {
+            "oid_municipio": 792,
+            "nombre_municipio": "Cachirá"
+          },
+          {
+            "oid_municipio": 807,
+            "nombre_municipio": "Cácota"
+          },
+          {
+            "oid_municipio": 814,
+            "nombre_municipio": "Chinácota"
+          },
+          {
+            "oid_municipio": 808,
+            "nombre_municipio": "Chitagá"
+          },
+          {
+            "oid_municipio": 793,
+            "nombre_municipio": "Convención"
+          },
+          {
+            "oid_municipio": 801,
+            "nombre_municipio": "Cúcuta"
+          },
+          {
+            "oid_municipio": 781,
+            "nombre_municipio": "Cucutilla"
+          },
+          {
+            "oid_municipio": 815,
+            "nombre_municipio": "Durania"
+          },
+          {
+            "oid_municipio": 794,
+            "nombre_municipio": "El Carmen"
+          },
+          {
+            "oid_municipio": 788,
+            "nombre_municipio": "El Tarra"
+          },
+          {
+            "oid_municipio": 802,
+            "nombre_municipio": "El Zulia"
+          },
+          {
+            "oid_municipio": 782,
+            "nombre_municipio": "Gramalote"
+          },
+          {
+            "oid_municipio": 795,
+            "nombre_municipio": "Hacarí"
+          },
+          {
+            "oid_municipio": 816,
+            "nombre_municipio": "Herrán"
+          },
+          {
+            "oid_municipio": 796,
+            "nombre_municipio": "La Esperanza"
+          },
+          {
+            "oid_municipio": 797,
+            "nombre_municipio": "La Playa"
+          },
+          {
+            "oid_municipio": 817,
+            "nombre_municipio": "Labateca"
+          },
+          {
+            "oid_municipio": 803,
+            "nombre_municipio": "Los Patios"
+          },
+          {
+            "oid_municipio": 783,
+            "nombre_municipio": "Lourdes"
+          },
+          {
+            "oid_municipio": 809,
+            "nombre_municipio": "Mutiscua"
+          },
+          {
+            "oid_municipio": 798,
+            "nombre_municipio": "Ocaña"
+          },
+          {
+            "oid_municipio": 810,
+            "nombre_municipio": "Pamplona"
+          },
+          {
+            "oid_municipio": 811,
+            "nombre_municipio": "Pamplonita"
+          },
+          {
+            "oid_municipio": 804,
+            "nombre_municipio": "Puerto Santander"
+          },
+          {
+            "oid_municipio": 818,
+            "nombre_municipio": "Ragonvalia"
+          },
+          {
+            "oid_municipio": 784,
+            "nombre_municipio": "Salazar"
+          },
+          {
+            "oid_municipio": 799,
+            "nombre_municipio": "San Calixto"
+          },
+          {
+            "oid_municipio": 805,
+            "nombre_municipio": "San Cayetano"
+          },
+          {
+            "oid_municipio": 785,
+            "nombre_municipio": "Santiago"
+          },
+          {
+            "oid_municipio": 789,
+            "nombre_municipio": "Sardinata"
+          },
+          {
+            "oid_municipio": 812,
+            "nombre_municipio": "Silos"
+          },
+          {
+            "oid_municipio": 800,
+            "nombre_municipio": "Teorama"
+          },
+          {
+            "oid_municipio": 790,
+            "nombre_municipio": "Tibú"
+          },
+          {
+            "oid_municipio": 819,
+            "nombre_municipio": "Toledo"
+          },
+          {
+            "oid_municipio": 786,
+            "nombre_municipio": "Villa Caro"
+          },
+          {
+            "oid_municipio": 806,
+            "nombre_municipio": "Villa Del Rosario"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 19,
+        "nombre_departamento": "Quindío",
+        "municipios": [
+          {
+            "oid_municipio": 820,
+            "nombre_municipio": "Armenia"
+          },
+          {
+            "oid_municipio": 821,
+            "nombre_municipio": "Buenavista"
+          },
+          {
+            "oid_municipio": 822,
+            "nombre_municipio": "Calarca"
+          },
+          {
+            "oid_municipio": 828,
+            "nombre_municipio": "Circasia"
+          },
+          {
+            "oid_municipio": 823,
+            "nombre_municipio": "Cordoba"
+          },
+          {
+            "oid_municipio": 826,
+            "nombre_municipio": "Filandia"
+          },
+          {
+            "oid_municipio": 824,
+            "nombre_municipio": "Genova"
+          },
+          {
+            "oid_municipio": 829,
+            "nombre_municipio": "La Tebaida"
+          },
+          {
+            "oid_municipio": 830,
+            "nombre_municipio": "Montengro"
+          },
+          {
+            "oid_municipio": 825,
+            "nombre_municipio": "Pijao"
+          },
+          {
+            "oid_municipio": 831,
+            "nombre_municipio": "Quimbaya"
+          },
+          {
+            "oid_municipio": 827,
+            "nombre_municipio": "Salento"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 20,
+        "nombre_departamento": "Risaralda",
+        "municipios": [
+          {
+            "oid_municipio": 837,
+            "nombre_municipio": "Apía"
+          },
+          {
+            "oid_municipio": 838,
+            "nombre_municipio": "Balboa"
+          },
+          {
+            "oid_municipio": 839,
+            "nombre_municipio": "Belén De Umbría"
+          },
+          {
+            "oid_municipio": 832,
+            "nombre_municipio": "Dosquebradas"
+          },
+          {
+            "oid_municipio": 840,
+            "nombre_municipio": "Guática"
+          },
+          {
+            "oid_municipio": 841,
+            "nombre_municipio": "La Celia"
+          },
+          {
+            "oid_municipio": 833,
+            "nombre_municipio": "La Virginia"
+          },
+          {
+            "oid_municipio": 834,
+            "nombre_municipio": "Marsella"
+          },
+          {
+            "oid_municipio": 844,
+            "nombre_municipio": "Mistrató"
+          },
+          {
+            "oid_municipio": 835,
+            "nombre_municipio": "Pereira"
+          },
+          {
+            "oid_municipio": 845,
+            "nombre_municipio": "Pueblo Rico"
+          },
+          {
+            "oid_municipio": 842,
+            "nombre_municipio": "Quinchia"
+          },
+          {
+            "oid_municipio": 836,
+            "nombre_municipio": "Santa Rosa De Cabal"
+          },
+          {
+            "oid_municipio": 843,
+            "nombre_municipio": "Santuario"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 21,
+        "nombre_departamento": "Santander",
+        "municipios": [
+          {
+            "oid_municipio": 914,
+            "nombre_municipio": "Aguada"
+          },
+          {
+            "oid_municipio": 915,
+            "nombre_municipio": "Albania"
+          },
+          {
+            "oid_municipio": 875,
+            "nombre_municipio": "Aratoca"
+          },
+          {
+            "oid_municipio": 916,
+            "nombre_municipio": "Barbosa"
+          },
+          {
+            "oid_municipio": 876,
+            "nombre_municipio": "Barichara"
+          },
+          {
+            "oid_municipio": 892,
+            "nombre_municipio": "Barrancabermeja"
+          },
+          {
+            "oid_municipio": 893,
+            "nombre_municipio": "Betulia"
+          },
+          {
+            "oid_municipio": 917,
+            "nombre_municipio": "Bolívar"
+          },
+          {
+            "oid_municipio": 899,
+            "nombre_municipio": "Bucaramanga"
+          },
+          {
+            "oid_municipio": 877,
+            "nombre_municipio": "Cabrera"
+          },
+          {
+            "oid_municipio": 900,
+            "nombre_municipio": "California"
+          },
+          {
+            "oid_municipio": 862,
+            "nombre_municipio": "Capitanejo"
+          },
+          {
+            "oid_municipio": 863,
+            "nombre_municipio": "Carcasí"
+          },
+          {
+            "oid_municipio": 864,
+            "nombre_municipio": "Cepitá"
+          },
+          {
+            "oid_municipio": 865,
+            "nombre_municipio": "Cerrito"
+          },
+          {
+            "oid_municipio": 878,
+            "nombre_municipio": "Charalá"
+          },
+          {
+            "oid_municipio": 901,
+            "nombre_municipio": "Charta"
+          },
+          {
+            "oid_municipio": 846,
+            "nombre_municipio": "Chima"
+          },
+          {
+            "oid_municipio": 918,
+            "nombre_municipio": "Chipatá"
+          },
+          {
+            "oid_municipio": 919,
+            "nombre_municipio": "Cimitarra"
+          },
+          {
+            "oid_municipio": 866,
+            "nombre_municipio": "Concepción"
+          },
+          {
+            "oid_municipio": 847,
+            "nombre_municipio": "Confines"
+          },
+          {
+            "oid_municipio": 848,
+            "nombre_municipio": "Contratación"
+          },
+          {
+            "oid_municipio": 879,
+            "nombre_municipio": "Coromoro"
+          },
+          {
+            "oid_municipio": 880,
+            "nombre_municipio": "Curití"
+          },
+          {
+            "oid_municipio": 894,
+            "nombre_municipio": "El Carmen De Chucurí"
+          },
+          {
+            "oid_municipio": 849,
+            "nombre_municipio": "El Guacamayo"
+          },
+          {
+            "oid_municipio": 920,
+            "nombre_municipio": "El Peñón"
+          },
+          {
+            "oid_municipio": 902,
+            "nombre_municipio": "El Playón"
+          },
+          {
+            "oid_municipio": 881,
+            "nombre_municipio": "Encino"
+          },
+          {
+            "oid_municipio": 867,
+            "nombre_municipio": "Enciso"
+          },
+          {
+            "oid_municipio": 921,
+            "nombre_municipio": "Florián"
+          },
+          {
+            "oid_municipio": 903,
+            "nombre_municipio": "Floridablanca"
+          },
+          {
+            "oid_municipio": 850,
+            "nombre_municipio": "Galán"
+          },
+          {
+            "oid_municipio": 851,
+            "nombre_municipio": "Gambita"
+          },
+          {
+            "oid_municipio": 904,
+            "nombre_municipio": "Girón"
+          },
+          {
+            "oid_municipio": 868,
+            "nombre_municipio": "Guaca"
+          },
+          {
+            "oid_municipio": 852,
+            "nombre_municipio": "Guadalupe"
+          },
+          {
+            "oid_municipio": 853,
+            "nombre_municipio": "Guapotá"
+          },
+          {
+            "oid_municipio": 922,
+            "nombre_municipio": "Guavatá"
+          },
+          {
+            "oid_municipio": 923,
+            "nombre_municipio": "Guepsa"
+          },
+          {
+            "oid_municipio": 854,
+            "nombre_municipio": "Hato"
+          },
+          {
+            "oid_municipio": 924,
+            "nombre_municipio": "Jesús María"
+          },
+          {
+            "oid_municipio": 882,
+            "nombre_municipio": "Jordán"
+          },
+          {
+            "oid_municipio": 925,
+            "nombre_municipio": "La Belleza"
+          },
+          {
+            "oid_municipio": 926,
+            "nombre_municipio": "La Paz"
+          },
+          {
+            "oid_municipio": 927,
+            "nombre_municipio": "Landázuri"
+          },
+          {
+            "oid_municipio": 905,
+            "nombre_municipio": "Lebríja"
+          },
+          {
+            "oid_municipio": 906,
+            "nombre_municipio": "Los Santos"
+          },
+          {
+            "oid_municipio": 869,
+            "nombre_municipio": "Macaravita"
+          },
+          {
+            "oid_municipio": 870,
+            "nombre_municipio": "Málaga"
+          },
+          {
+            "oid_municipio": 907,
+            "nombre_municipio": "Matanza"
+          },
+          {
+            "oid_municipio": 883,
+            "nombre_municipio": "Mogotes"
+          },
+          {
+            "oid_municipio": 871,
+            "nombre_municipio": "Molagavita"
+          },
+          {
+            "oid_municipio": 884,
+            "nombre_municipio": "Ocamonte"
+          },
+          {
+            "oid_municipio": 855,
+            "nombre_municipio": "Oiba"
+          },
+          {
+            "oid_municipio": 885,
+            "nombre_municipio": "Onzaga"
+          },
+          {
+            "oid_municipio": 856,
+            "nombre_municipio": "Palmar"
+          },
+          {
+            "oid_municipio": 857,
+            "nombre_municipio": "Palmas Del Socorro"
+          },
+          {
+            "oid_municipio": 886,
+            "nombre_municipio": "Páramo"
+          },
+          {
+            "oid_municipio": 908,
+            "nombre_municipio": "Piedecuesta"
+          },
+          {
+            "oid_municipio": 887,
+            "nombre_municipio": "Pinchote"
+          },
+          {
+            "oid_municipio": 928,
+            "nombre_municipio": "Puente Nacional"
+          },
+          {
+            "oid_municipio": 929,
+            "nombre_municipio": "Puerto Parra"
+          },
+          {
+            "oid_municipio": 895,
+            "nombre_municipio": "Puerto Wilches"
+          },
+          {
+            "oid_municipio": 909,
+            "nombre_municipio": "Rionegro"
+          },
+          {
+            "oid_municipio": 896,
+            "nombre_municipio": "Sabana De Torres"
+          },
+          {
+            "oid_municipio": 872,
+            "nombre_municipio": "San Andrés"
+          },
+          {
+            "oid_municipio": 930,
+            "nombre_municipio": "San Benito"
+          },
+          {
+            "oid_municipio": 888,
+            "nombre_municipio": "San Gil"
+          },
+          {
+            "oid_municipio": 889,
+            "nombre_municipio": "San Joaquín"
+          },
+          {
+            "oid_municipio": 873,
+            "nombre_municipio": "San José De Miranda"
+          },
+          {
+            "oid_municipio": 874,
+            "nombre_municipio": "San Miguel"
+          },
+          {
+            "oid_municipio": 897,
+            "nombre_municipio": "San Vicente De Chucurí"
+          },
+          {
+            "oid_municipio": 910,
+            "nombre_municipio": "Santa Bárbara"
+          },
+          {
+            "oid_municipio": 858,
+            "nombre_municipio": "Santa Helena Del Opón"
+          },
+          {
+            "oid_municipio": 859,
+            "nombre_municipio": "Simacota"
+          },
+          {
+            "oid_municipio": 860,
+            "nombre_municipio": "Socorro"
+          },
+          {
+            "oid_municipio": 861,
+            "nombre_municipio": "Suaita"
+          },
+          {
+            "oid_municipio": 931,
+            "nombre_municipio": "Sucre"
+          },
+          {
+            "oid_municipio": 911,
+            "nombre_municipio": "Surata"
+          },
+          {
+            "oid_municipio": 912,
+            "nombre_municipio": "Tona"
+          },
+          {
+            "oid_municipio": 890,
+            "nombre_municipio": "Valle De San José"
+          },
+          {
+            "oid_municipio": 932,
+            "nombre_municipio": "Vélez"
+          },
+          {
+            "oid_municipio": 913,
+            "nombre_municipio": "Vetas"
+          },
+          {
+            "oid_municipio": 891,
+            "nombre_municipio": "Villanueva"
+          },
+          {
+            "oid_municipio": 898,
+            "nombre_municipio": "Zapatoca"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 22,
+        "nombre_departamento": "Sucre",
+        "municipios": [
+          {
+            "oid_municipio": 946,
+            "nombre_municipio": "Buenavista"
+          },
+          {
+            "oid_municipio": 955,
+            "nombre_municipio": "Caimito"
+          },
+          {
+            "oid_municipio": 936,
+            "nombre_municipio": "Chalán"
+          },
+          {
+            "oid_municipio": 937,
+            "nombre_municipio": "Coloso"
+          },
+          {
+            "oid_municipio": 947,
+            "nombre_municipio": "Corozal"
+          },
+          {
+            "oid_municipio": 941,
+            "nombre_municipio": "Coveñas"
+          },
+          {
+            "oid_municipio": 948,
+            "nombre_municipio": "El Roble"
+          },
+          {
+            "oid_municipio": 949,
+            "nombre_municipio": "Galeras"
+          },
+          {
+            "oid_municipio": 933,
+            "nombre_municipio": "Guaranda"
+          },
+          {
+            "oid_municipio": 956,
+            "nombre_municipio": "La Unión"
+          },
+          {
+            "oid_municipio": 950,
+            "nombre_municipio": "Los Palmitos"
+          },
+          {
+            "oid_municipio": 934,
+            "nombre_municipio": "Majagual"
+          },
+          {
+            "oid_municipio": 938,
+            "nombre_municipio": "Morroa"
+          },
+          {
+            "oid_municipio": 939,
+            "nombre_municipio": "Ovejas"
+          },
+          {
+            "oid_municipio": 942,
+            "nombre_municipio": "Palmito"
+          },
+          {
+            "oid_municipio": 951,
+            "nombre_municipio": "Sampués"
+          },
+          {
+            "oid_municipio": 957,
+            "nombre_municipio": "San Benito Abad"
+          },
+          {
+            "oid_municipio": 952,
+            "nombre_municipio": "San Juan Betulia"
+          },
+          {
+            "oid_municipio": 958,
+            "nombre_municipio": "San Marcos"
+          },
+          {
+            "oid_municipio": 943,
+            "nombre_municipio": "San Onofre"
+          },
+          {
+            "oid_municipio": 953,
+            "nombre_municipio": "San Pedro"
+          },
+          {
+            "oid_municipio": 944,
+            "nombre_municipio": "Santiago De Tolú"
+          },
+          {
+            "oid_municipio": 954,
+            "nombre_municipio": "Sincé"
+          },
+          {
+            "oid_municipio": 940,
+            "nombre_municipio": "Sincelejo"
+          },
+          {
+            "oid_municipio": 935,
+            "nombre_municipio": "Sucre"
+          },
+          {
+            "oid_municipio": 945,
+            "nombre_municipio": "Tolú Viejo"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 23,
+        "nombre_departamento": "Tolima",
+        "municipios": [
+          {
+            "oid_municipio": 991,
+            "nombre_municipio": "Alpujarra"
+          },
+          {
+            "oid_municipio": 980,
+            "nombre_municipio": "Alvarado"
+          },
+          {
+            "oid_municipio": 959,
+            "nombre_municipio": "Ambalema"
+          },
+          {
+            "oid_municipio": 981,
+            "nombre_municipio": "Anzoátegui"
+          },
+          {
+            "oid_municipio": 960,
+            "nombre_municipio": "Armero"
+          },
+          {
+            "oid_municipio": 971,
+            "nombre_municipio": "Ataco"
+          },
+          {
+            "oid_municipio": 982,
+            "nombre_municipio": "Cajamarca"
+          },
+          {
+            "oid_municipio": 966,
+            "nombre_municipio": "Carmen De Apicalá"
+          },
+          {
+            "oid_municipio": 998,
+            "nombre_municipio": "Casabianca"
+          },
+          {
+            "oid_municipio": 972,
+            "nombre_municipio": "Chaparral"
+          },
+          {
+            "oid_municipio": 983,
+            "nombre_municipio": "Coello"
+          },
+          {
+            "oid_municipio": 973,
+            "nombre_municipio": "Coyaima"
+          },
+          {
+            "oid_municipio": 967,
+            "nombre_municipio": "Cunday"
+          },
+          {
+            "oid_municipio": 992,
+            "nombre_municipio": "Dolores"
+          },
+          {
+            "oid_municipio": 984,
+            "nombre_municipio": "Espinal"
+          },
+          {
+            "oid_municipio": 961,
+            "nombre_municipio": "Falan"
+          },
+          {
+            "oid_municipio": 985,
+            "nombre_municipio": "Flandes"
+          },
+          {
+            "oid_municipio": 962,
+            "nombre_municipio": "Fresno"
+          },
+          {
+            "oid_municipio": 993,
+            "nombre_municipio": "Guamo"
+          },
+          {
+            "oid_municipio": 999,
+            "nombre_municipio": "Herveo"
+          },
+          {
+            "oid_municipio": 963,
+            "nombre_municipio": "Honda"
+          },
+          {
+            "oid_municipio": 986,
+            "nombre_municipio": "Ibague"
+          },
+          {
+            "oid_municipio": 968,
+            "nombre_municipio": "Icononzo"
+          },
+          {
+            "oid_municipio": 1000,
+            "nombre_municipio": "Lerida"
+          },
+          {
+            "oid_municipio": 1001,
+            "nombre_municipio": "Libano"
+          },
+          {
+            "oid_municipio": 964,
+            "nombre_municipio": "Mariquita"
+          },
+          {
+            "oid_municipio": 969,
+            "nombre_municipio": "Melgar"
+          },
+          {
+            "oid_municipio": 1002,
+            "nombre_municipio": "Murillo"
+          },
+          {
+            "oid_municipio": 974,
+            "nombre_municipio": "Natagaima"
+          },
+          {
+            "oid_municipio": 975,
+            "nombre_municipio": "Ortega"
+          },
+          {
+            "oid_municipio": 965,
+            "nombre_municipio": "Palocabildo"
+          },
+          {
+            "oid_municipio": 987,
+            "nombre_municipio": "Piedras"
+          },
+          {
+            "oid_municipio": 976,
+            "nombre_municipio": "Planadas"
+          },
+          {
+            "oid_municipio": 994,
+            "nombre_municipio": "Prado"
+          },
+          {
+            "oid_municipio": 995,
+            "nombre_municipio": "Purificación"
+          },
+          {
+            "oid_municipio": 977,
+            "nombre_municipio": "Rioblanco"
+          },
+          {
+            "oid_municipio": 978,
+            "nombre_municipio": "Roncesvalles"
+          },
+          {
+            "oid_municipio": 988,
+            "nombre_municipio": "Rovira"
+          },
+          {
+            "oid_municipio": 996,
+            "nombre_municipio": "Saldaña"
+          },
+          {
+            "oid_municipio": 979,
+            "nombre_municipio": "San Antonio"
+          },
+          {
+            "oid_municipio": 989,
+            "nombre_municipio": "San Luis"
+          },
+          {
+            "oid_municipio": 1003,
+            "nombre_municipio": "Santa Isabel"
+          },
+          {
+            "oid_municipio": 997,
+            "nombre_municipio": "Suárez"
+          },
+          {
+            "oid_municipio": 990,
+            "nombre_municipio": "Valle De San Juan"
+          },
+          {
+            "oid_municipio": 1004,
+            "nombre_municipio": "Venadillo"
+          },
+          {
+            "oid_municipio": 1005,
+            "nombre_municipio": "Villahermosa"
+          },
+          {
+            "oid_municipio": 970,
+            "nombre_municipio": "Villarrica"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 24,
+        "nombre_departamento": "Valle Del Cauca",
+        "municipios": [
+          {
+            "oid_municipio": 1019,
+            "nombre_municipio": "Alcala"
+          },
+          {
+            "oid_municipio": 1006,
+            "nombre_municipio": "Andalucía"
+          },
+          {
+            "oid_municipio": 1020,
+            "nombre_municipio": "Ansermanuevo"
+          },
+          {
+            "oid_municipio": 1021,
+            "nombre_municipio": "Argelia"
+          },
+          {
+            "oid_municipio": 1022,
+            "nombre_municipio": "Bolívar"
+          },
+          {
+            "oid_municipio": 1035,
+            "nombre_municipio": "Buenaventura"
+          },
+          {
+            "oid_municipio": 1007,
+            "nombre_municipio": "Buga"
+          },
+          {
+            "oid_municipio": 1008,
+            "nombre_municipio": "Bugalagrande"
+          },
+          {
+            "oid_municipio": 1036,
+            "nombre_municipio": "Caicedonia"
+          },
+          {
+            "oid_municipio": 1038,
+            "nombre_municipio": "Cali"
+          },
+          {
+            "oid_municipio": 1009,
+            "nombre_municipio": "Calima"
+          },
+          {
+            "oid_municipio": 1039,
+            "nombre_municipio": "Candelaria"
+          },
+          {
+            "oid_municipio": 1023,
+            "nombre_municipio": "Cartago"
+          },
+          {
+            "oid_municipio": 1040,
+            "nombre_municipio": "Dagua"
+          },
+          {
+            "oid_municipio": 1024,
+            "nombre_municipio": "El Águila"
+          },
+          {
+            "oid_municipio": 1025,
+            "nombre_municipio": "El Cairo"
+          },
+          {
+            "oid_municipio": 1010,
+            "nombre_municipio": "El Cerrito"
+          },
+          {
+            "oid_municipio": 1026,
+            "nombre_municipio": "El Dovio"
+          },
+          {
+            "oid_municipio": 1041,
+            "nombre_municipio": "Florida"
+          },
+          {
+            "oid_municipio": 1011,
+            "nombre_municipio": "Ginebra"
+          },
+          {
+            "oid_municipio": 1012,
+            "nombre_municipio": "Guacarí"
+          },
+          {
+            "oid_municipio": 1042,
+            "nombre_municipio": "Jamundí"
+          },
+          {
+            "oid_municipio": 1043,
+            "nombre_municipio": "La Cumbre"
+          },
+          {
+            "oid_municipio": 1027,
+            "nombre_municipio": "La Unión"
+          },
+          {
+            "oid_municipio": 1028,
+            "nombre_municipio": "La Victoria"
+          },
+          {
+            "oid_municipio": 1029,
+            "nombre_municipio": "Obando"
+          },
+          {
+            "oid_municipio": 1044,
+            "nombre_municipio": "Palmira"
+          },
+          {
+            "oid_municipio": 1045,
+            "nombre_municipio": "Pradera"
+          },
+          {
+            "oid_municipio": 1013,
+            "nombre_municipio": "Restrepo"
+          },
+          {
+            "oid_municipio": 1014,
+            "nombre_municipio": "Riofrio"
+          },
+          {
+            "oid_municipio": 1030,
+            "nombre_municipio": "Roldanillo"
+          },
+          {
+            "oid_municipio": 1015,
+            "nombre_municipio": "San Pedro"
+          },
+          {
+            "oid_municipio": 1037,
+            "nombre_municipio": "Sevilla"
+          },
+          {
+            "oid_municipio": 1031,
+            "nombre_municipio": "Toro"
+          },
+          {
+            "oid_municipio": 1016,
+            "nombre_municipio": "Trujillo"
+          },
+          {
+            "oid_municipio": 1017,
+            "nombre_municipio": "Tuluá"
+          },
+          {
+            "oid_municipio": 1032,
+            "nombre_municipio": "Ulloa"
+          },
+          {
+            "oid_municipio": 1033,
+            "nombre_municipio": "Versalles"
+          },
+          {
+            "oid_municipio": 1046,
+            "nombre_municipio": "Vijes"
+          },
+          {
+            "oid_municipio": 1018,
+            "nombre_municipio": "Yotoco"
+          },
+          {
+            "oid_municipio": 1047,
+            "nombre_municipio": "Yumbo"
+          },
+          {
+            "oid_municipio": 1034,
+            "nombre_municipio": "Zarzal"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 25,
+        "nombre_departamento": "Arauca",
+        "municipios": [
+          {
+            "oid_municipio": 1048,
+            "nombre_municipio": "Arauca"
+          },
+          {
+            "oid_municipio": 1049,
+            "nombre_municipio": "Arauquita"
+          },
+          {
+            "oid_municipio": 1050,
+            "nombre_municipio": "Cravo Norte"
+          },
+          {
+            "oid_municipio": 1051,
+            "nombre_municipio": "Fortul"
+          },
+          {
+            "oid_municipio": 1052,
+            "nombre_municipio": "Puerto Rondón"
+          },
+          {
+            "oid_municipio": 1053,
+            "nombre_municipio": "Saravena"
+          },
+          {
+            "oid_municipio": 1054,
+            "nombre_municipio": "Tame"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 26,
+        "nombre_departamento": "Casanare",
+        "municipios": [
+          {
+            "oid_municipio": 1055,
+            "nombre_municipio": "Aguazul"
+          },
+          {
+            "oid_municipio": 1056,
+            "nombre_municipio": "Chameza"
+          },
+          {
+            "oid_municipio": 1057,
+            "nombre_municipio": "Hato Corozal"
+          },
+          {
+            "oid_municipio": 1058,
+            "nombre_municipio": "La Salina"
+          },
+          {
+            "oid_municipio": 1059,
+            "nombre_municipio": "Maní"
+          },
+          {
+            "oid_municipio": 1060,
+            "nombre_municipio": "Monterrey"
+          },
+          {
+            "oid_municipio": 1061,
+            "nombre_municipio": "Nunchía"
+          },
+          {
+            "oid_municipio": 1062,
+            "nombre_municipio": "Orocué"
+          },
+          {
+            "oid_municipio": 1063,
+            "nombre_municipio": "Paz De Ariporo"
+          },
+          {
+            "oid_municipio": 1064,
+            "nombre_municipio": "Pore"
+          },
+          {
+            "oid_municipio": 1065,
+            "nombre_municipio": "Recetor"
+          },
+          {
+            "oid_municipio": 1066,
+            "nombre_municipio": "Sabanalarga"
+          },
+          {
+            "oid_municipio": 1067,
+            "nombre_municipio": "Sácama"
+          },
+          {
+            "oid_municipio": 1068,
+            "nombre_municipio": "San Luis De Palenque"
+          },
+          {
+            "oid_municipio": 1069,
+            "nombre_municipio": "Támara"
+          },
+          {
+            "oid_municipio": 1070,
+            "nombre_municipio": "Tauramena"
+          },
+          {
+            "oid_municipio": 1071,
+            "nombre_municipio": "Trinidad"
+          },
+          {
+            "oid_municipio": 1072,
+            "nombre_municipio": "Villanueva"
+          },
+          {
+            "oid_municipio": 1073,
+            "nombre_municipio": "Yopal"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 27,
+        "nombre_departamento": "Putumayo",
+        "municipios": [
+          {
+            "oid_municipio": 1074,
+            "nombre_municipio": "Colón"
+          },
+          {
+            "oid_municipio": 1075,
+            "nombre_municipio": "Mocoa"
+          },
+          {
+            "oid_municipio": 1076,
+            "nombre_municipio": "Orito"
+          },
+          {
+            "oid_municipio": 1077,
+            "nombre_municipio": "Puerto Asís"
+          },
+          {
+            "oid_municipio": 1078,
+            "nombre_municipio": "Puerto Caicedo"
+          },
+          {
+            "oid_municipio": 1079,
+            "nombre_municipio": "Puerto Guzmán"
+          },
+          {
+            "oid_municipio": 1080,
+            "nombre_municipio": "Puerto Leguízamo"
+          },
+          {
+            "oid_municipio": 1081,
+            "nombre_municipio": "San Francisco"
+          },
+          {
+            "oid_municipio": 1082,
+            "nombre_municipio": "San Miguel"
+          },
+          {
+            "oid_municipio": 1083,
+            "nombre_municipio": "Santiago"
+          },
+          {
+            "oid_municipio": 1084,
+            "nombre_municipio": "Sibundoy"
+          },
+          {
+            "oid_municipio": 1085,
+            "nombre_municipio": "Valle Del Guamuez"
+          },
+          {
+            "oid_municipio": 1086,
+            "nombre_municipio": "Villagarzón"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 28,
+        "nombre_departamento": "Archipielago de San Andres",
+        "municipios": [
+          {
+            "oid_municipio": 1087,
+            "nombre_municipio": "Providencia Y Santa Catalina"
+          },
+          {
+            "oid_municipio": 1088,
+            "nombre_municipio": "San Andres"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 29,
+        "nombre_departamento": "Amazonas",
+        "municipios": [
+          {
+            "oid_municipio": 1089,
+            "nombre_municipio": "El Encanto"
+          },
+          {
+            "oid_municipio": 1090,
+            "nombre_municipio": "La Chorrera"
+          },
+          {
+            "oid_municipio": 1091,
+            "nombre_municipio": "La Pedrera"
+          },
+          {
+            "oid_municipio": 1092,
+            "nombre_municipio": "La Victoria"
+          },
+          {
+            "oid_municipio": 1093,
+            "nombre_municipio": "Leticia"
+          },
+          {
+            "oid_municipio": 1094,
+            "nombre_municipio": "Miriti - Paraná"
+          },
+          {
+            "oid_municipio": 1095,
+            "nombre_municipio": "Puerto Alegria"
+          },
+          {
+            "oid_municipio": 1096,
+            "nombre_municipio": "Puerto Arica"
+          },
+          {
+            "oid_municipio": 1097,
+            "nombre_municipio": "Puerto Nariño"
+          },
+          {
+            "oid_municipio": 1098,
+            "nombre_municipio": "Puerto Santander"
+          },
+          {
+            "oid_municipio": 1099,
+            "nombre_municipio": "Tarapacá"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 30,
+        "nombre_departamento": "Guainía",
+        "municipios": [
+          {
+            "oid_municipio": 1100,
+            "nombre_municipio": "Barranco Mina"
+          },
+          {
+            "oid_municipio": 1101,
+            "nombre_municipio": "Cacahual"
+          },
+          {
+            "oid_municipio": 1102,
+            "nombre_municipio": "Inírida"
+          },
+          {
+            "oid_municipio": 1103,
+            "nombre_municipio": "La Guadalupe"
+          },
+          {
+            "oid_municipio": 1104,
+            "nombre_municipio": "Mapiripán"
+          },
+          {
+            "oid_municipio": 1105,
+            "nombre_municipio": "Morichal"
+          },
+          {
+            "oid_municipio": 1106,
+            "nombre_municipio": "Pana Pana"
+          },
+          {
+            "oid_municipio": 1107,
+            "nombre_municipio": "Puerto Colombia"
+          },
+          {
+            "oid_municipio": 1108,
+            "nombre_municipio": "San Felipe"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 31,
+        "nombre_departamento": "Guaviare",
+        "municipios": [
+          {
+            "oid_municipio": 1109,
+            "nombre_municipio": "Calamar"
+          },
+          {
+            "oid_municipio": 1110,
+            "nombre_municipio": "El Retorno"
+          },
+          {
+            "oid_municipio": 1111,
+            "nombre_municipio": "Miraflores"
+          },
+          {
+            "oid_municipio": 1112,
+            "nombre_municipio": "San José Del Guaviare"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 32,
+        "nombre_departamento": "Vaupés",
+        "municipios": [
+          {
+            "oid_municipio": 1113,
+            "nombre_municipio": "Caruru"
+          },
+          {
+            "oid_municipio": 1114,
+            "nombre_municipio": "Mitú"
+          },
+          {
+            "oid_municipio": 1115,
+            "nombre_municipio": "Pacoa"
+          },
+          {
+            "oid_municipio": 1116,
+            "nombre_municipio": "Papunahua"
+          },
+          {
+            "oid_municipio": 1117,
+            "nombre_municipio": "Taraira"
+          },
+          {
+            "oid_municipio": 1118,
+            "nombre_municipio": "Yavaraté"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 33,
+        "nombre_departamento": "Vichada",
+        "municipios": [
+          {
+            "oid_municipio": 1119,
+            "nombre_municipio": "Cumaribo"
+          },
+          {
+            "oid_municipio": 1120,
+            "nombre_municipio": "La Primavera"
+          },
+          {
+            "oid_municipio": 1121,
+            "nombre_municipio": "Puerto Carreño"
+          },
+          {
+            "oid_municipio": 1122,
+            "nombre_municipio": "Santa Rosalía"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 34,
+        "nombre_departamento": "Fuera de Colombia",
+        "municipios": [
+          {
+            "oid_municipio": 1123,
+            "nombre_municipio": "Fuera de Colombia (Cuba)"
+          },
+          {
+            "oid_municipio": 1124,
+            "nombre_municipio": "Fuera de Colombia (Venezuela)"
+          }
+        ]
+      },
+      {
+        "oid_departamento": 35,
+        "nombre_departamento": "No registra",
+        "municipios": [
+          {
+            "oid_municipio": 1125,
+            "nombre_municipio": "No registra"
+          }
+        ]
+      }
+    ]
+  }

@@ -79,7 +79,7 @@ const ParkingManagement = () => {
         number: startNumber + index + 1,
         isOccupied: Math.random() > 0.5,
         apartment: isResident ? `${Math.floor(Math.random() * 100) + 101}` : null,
-        licensePlate: `ABC${Math.floor(Math.random() * 1000)}`,
+        licensePlate: `ABC-${Math.floor(Math.random() * 1000)}`,
       }));
 
     setResidentSpaces(generateSpaces(9, true, 0));

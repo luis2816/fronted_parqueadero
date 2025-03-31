@@ -1,0 +1,70 @@
+
+  
+  .form-card {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .main-title {
+    color: #0f1010  !important ; /* Cambia este valor si deseas otro color */
+    margin-top: 10px;
+    font-size: 25px  !important;
+    text-align: center;
+  }
+  .main-title-subtitule{
+    font-size: 25px !important;
+    text-align: center;
+    color: #338AC6 !important;
+
+  }
+  .signature-container {
+    border: 2px solid #000;  /* Agrega un borde de 2px de color negro */
+    padding: 10px;           /* Espaciado interno */
+    border-radius: 5px;      /* Bordes redondeados opcionales */
+    margin-top: 10px;        /* Espacio superior */
+  }
+  
+  .signature-canvas {
+    border: 1px solid #ccc;  /* Borde sutil alrededor del canvas */
+  }
+
+  .block-display-important {
+    display: block !important ;
+}
+
+
+.top-right-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 15px !important;
+}
+
+.ant-select-item-option-content {
+  white-space: normal !important;
+  height: auto !important;
+}
+
+.ant-select-dropdown {
+  padding: 4px 0;
+}
+
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+}
+
+.form-container .ant-form-item {
+  margin-bottom: 0;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+

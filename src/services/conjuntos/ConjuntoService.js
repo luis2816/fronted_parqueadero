@@ -8,23 +8,39 @@ export const insertConjunto = async (detalle) => {
     try {
         const response = await fetch(`${API_URL}/insertConjunto`, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(detalle),
+            body: detalle, // Enviar FormData directamente
         });
 
-        // Verificar si la respuesta es exitosa (status 200)
         if (!response.ok) {
             const errorData = await response.json();
-            throw new Error(errorData.msg || 'Network response was not ok');
+            throw new Error(errorData.msg || 'Error en la respuesta del servidor');
         }
 
         const responseData = await response.json();
         return responseData;
     } catch (error) {
-        console.error('Error al insertar el usuario:', error);
-        throw error; // Propaga el error para que pueda ser manejado por el componente que llama
+        console.error('Error al insertar el conjunto:', error);
+        throw error;
+    }
+};
+
+export const updateConjunto = async (conjuntoId, detalle) => {
+    try {
+        const response = await fetch(`${API_URL}/updateConjunto/${conjuntoId}`, {
+            method: 'PUT',
+            body: detalle, // Enviar FormData directamente
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.msg || 'Error en la respuesta del servidor');
+        }
+
+        const responseData = await response.json();
+        return responseData;
+    } catch (error) {
+        console.error('Error al actualizar el conjunto:', error);
+        throw error;
     }
 };
 
@@ -49,3 +65,8 @@ export const obtenerTotalConjuntos = async (id_usuario) => {
         throw error; // Propaga el error para que pueda ser manejado por el componente que llama
     }
 };
+
+
+export const getConjuntoImage = (filename) => {
+    return `${API_URL}/${filename}`;
+  };

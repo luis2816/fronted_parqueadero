@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { Button, Form, Layout, Input, message, Row, Col, Tooltip } from "antd";
 import "./login.css";
 import { loginService } from "../../services/login/loginService";
 import { fetchUserData } from "../../redux/userSlice";
-
+import Swal from "sweetalert2";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,37 +16,63 @@ const Login = () => {
   const dispatch = useDispatch(); // Usa el tipo AppDispatch
 
   const handleSubmit = async () => {
-    setLoading(true); // Activa el estado de carga antes de iniciar la solicitud
+    setLoading(true);
 
     try {
-      // Llamada al servicio de login
       const data = await loginService(email, password);
       switch (data.status) {
         case 200:
-          // Guardar el token en el localStorage
           localStorage.setItem("token", data.access_token);
           dispatch(fetchUserData(data.user.id));
-          message.success(
-            "Bienvenido! " + data.user.nombre + " " + data.user.apellido
-          );
-          // Redirigir a la ruta protegida
+          Swal.fire({
+            title: "¡Bienvenido!",
+            text: `${data.user.nombre} ${data.user.apellido}`,
+            icon: "success",
+            toast: true, // Convierte la alerta en un toast pequeño
+            position: "top", // La muestra en la parte superior
+            showConfirmButton: false, // Oculta el botón "OK"
+            timer: 3000, // La alerta desaparece después de 3 segundos
+            timerProgressBar: true, // Muestra una barra de progreso mientras se cierra
+          });
+
           navigate("/dashboard");
           break;
 
         case 401:
-          message.warning("Credenciales incorrectas");
+          Swal.fire({
+            title: "Error",
+            text: "⚠️ Credenciales incorrectas",
+            icon: "warning",
+            confirmButtonText: "Intentar de nuevo",
+          });
           break;
+
         case 500:
-          message.error("Ha ocurrido un error inesperado");
+          Swal.fire({
+            title: "Error del servidor",
+            text: "❌ Ha ocurrido un error inesperado",
+            icon: "error",
+            confirmButtonText: "Cerrar",
+          });
           break;
+
         default:
-          message.error("Ha ocurrido un error inesperado");
+          Swal.fire({
+            title: "Error desconocido",
+            text: "⚠️ Algo salió mal",
+            icon: "error",
+            confirmButtonText: "Cerrar",
+          });
           break;
       }
     } catch (err) {
-     
+      Swal.fire({
+        title: "Error",
+        text: "⚠️ No se pudo iniciar sesión",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
     } finally {
-      // Desactiva el estado de carga al finalizar la operación
       setLoading(false);
     }
   };
@@ -66,7 +92,11 @@ const Login = () => {
               autoComplete="off"
             >
               <Form.Item
-                label={<span style={{ fontWeight:"bold",  color: '#224484' }}>Usuario</span>}
+                label={
+                  <span style={{ fontWeight: "bold", color: "#224484" }}>
+                    Usuario
+                  </span>
+                }
                 name="username"
                 rules={[
                   { required: true, message: "Por favor, ingrese su usuario!" },
@@ -80,7 +110,11 @@ const Login = () => {
               </Form.Item>
               <Form.Item
                 className="input-login"
-                label={<span style={{ fontWeight:"bold",  color: '#224484' }}>Contraseña</span>}
+                label={
+                  <span style={{ fontWeight: "bold", color: "#224484" }}>
+                    Contraseña
+                  </span>
+                }
                 name="password"
                 rules={[
                   {

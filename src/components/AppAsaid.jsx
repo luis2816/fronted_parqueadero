@@ -35,23 +35,23 @@ const AppAsaid = () => {
     },
     
     {
-      key: '3',
+      key: '4',
       icon: <VideoCameraOutlined />,
       label: <Link to="/dashboard/gestion_residentes">Gestión residentes</Link>,
     },
     {
-      key: '4',
+      key: '5',
       icon: <VideoCameraOutlined />,
       label: <Link to="/dashboard/parkingManager">parkingManager</Link>,
     },
     {
-      key: '5',
+      key: '6',
       icon: <LockOutlined />,
       label: <Link to="/dashboard/updatePassword">Cambiar contraseña</Link>,
     },
 
     {
-      key: '5',
+      key: '7',
       icon: <BarChartOutlined />,
       label: <Link to="/dashboard/informe-parqueaderos">Informe por parqueadero</Link>,
     },

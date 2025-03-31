@@ -4,31 +4,32 @@ import CONFIG from '../../config';
 
 const API_URL = CONFIG.API_URL;
 
-// Obtener todos los vigilantes
-export const obtenerVigilantes = async (id_admin) => {
+// Obtener todos los residentes
+export const obtenerResidentes = async (id_admin) => {
     try {
-        const response = await axios.get(`${API_URL}/vigilantes?id_admin=${id_admin}`);
+        const response = await axios.get(`${API_URL}/residentes?id_admin=${id_admin}`);
         return response.data; // Axios maneja automáticamente la conversión a JSON
     } catch (error) {
-        console.error('Error al obtener los vigilantes:', error);
+        console.error('Error al obtener los residentes:', error);
         throw error; // Propaga el error para que pueda ser manejado por el componente que llama
     }
 };
 
-export const insertVigilante = async (formData) => {
+export const insertResidente = async (formData) => {
     console.log(formData);
     try {
-        const response = await axios.post(`${API_URL}/signupVigilante`, formData, {
+        const response = await axios.post(`${API_URL}/residente`, formData, {
             headers: {
-                'Content-Type': 'multipart/form-data' // Asegúrate de que el tipo de contenido es correcto
+                'Content-Type': 'application/json' // Enviar datos en formato JSON
             }
         });
-        return response.data; // Axios maneja automáticamente la conversión a JSON
+        return response.data; // Axios maneja automáticamente la conversión de JSON
     } catch (error) {
-        console.error('Error al insertar el vigilante:', error);
-        throw error; // Propaga el error para que pueda ser manejado por el componente que llama
+        console.error('Error al insertar el residente:', error);
+        throw error; // Propaga el error para que pueda ser manejado externamente
     }
 };
+
 
 
 export const updateVigilante = async (userId, formData) => {

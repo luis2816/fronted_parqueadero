@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from "react-redux";
 import { fetchUserData } from "../../redux/userSlice";
 import { obtenerUsuarioPorId } from "../../services/usuarioServices";
 import {
@@ -14,6 +14,7 @@ import {
   Col,
   message,
 } from "antd";
+import Swal from "sweetalert2";
 import { UploadOutlined, LoadingOutlined } from "@ant-design/icons";
 import { updateUsuario } from "../../services/usuarioServices";
 
@@ -36,7 +37,7 @@ const Perfil = () => {
     try {
       setLoading(true);
       const usuarioData = await obtenerUsuarioPorId(userIdNumber);
-      console.log(usuarioData)
+      console.log(usuarioData);
       setUsuario(usuarioData);
       form.setFieldsValue({
         nombre: usuarioData.nombre,
@@ -53,7 +54,9 @@ const Perfil = () => {
         cantidad_licencia: usuarioData.cantidad_licencia,
         rol: usuarioData.rol,
       });
-      const url_foto = usuarioData.foto_perfil_url+`?timestamp=${new Date().getTime()}`;;
+      const url_foto =
+        usuarioData.foto_perfil_url + `?timestamp=${new Date().getTime()}`;
+      console.log(url_foto);
       setImageUrl(url_foto); // Asume que `usuarioData.avatar` contiene la URL de la imagen
     } catch (error) {
       console.error("Error al obtener el usuario:", error);
@@ -85,7 +88,6 @@ const Perfil = () => {
         if (formattedValues[key] !== undefined) {
           formData.append(key, formattedValues[key]);
         }
-        
       }
 
       // Agregar la imagen al FormData si existe
@@ -96,31 +98,78 @@ const Perfil = () => {
 
       switch (response.status) {
         case 200:
-         dispatch(fetchUserData(userIdNumber));
+          dispatch(fetchUserData(userIdNumber));
           fetchUsuario(); // Refrescar los datos
-          message.success("Usuario actualizado");
+          Swal.fire({
+            title: "Usuario actualizado",
+            text: "Los datos se han guardado correctamente.",
+            icon: "success",
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
           break;
+
         case 401:
-          message.warning(response.msg);
+          Swal.fire({
+            title: "Acceso denegado",
+            text: response.msg || "No tienes autorización para esta acción.",
+            icon: "warning",
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
           break;
+
         case 500:
-          message.error("Ha ocurrido un error inesperado");
+          Swal.fire({
+            title: "Error del servidor",
+            text: "Ha ocurrido un error inesperado. Intenta nuevamente.",
+            icon: "error",
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
           break;
+
         default:
-          message.error("Ha ocurrido un error inesperado");
+          Swal.fire({
+            title: "Error desconocido",
+            text: "Algo salió mal. Por favor, inténtalo más tarde.",
+            icon: "error",
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
           break;
       }
     } catch (error) {
-      message.error("Ha ocurrido un error inesperado");
+      Swal.fire({
+        title: "Error inesperado",
+        text: "Ha ocurrido un error inesperado. Inténtalo nuevamente.",
+        icon: "error",
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+      });
     }
   };
 
-
   const handleUploadChange = (info) => {
     if (info.file.status === "done") {
-      const url = URL.createObjectURL(info.file.originFileObj );
+      const url = URL.createObjectURL(info.file.originFileObj);
       setImageUrl(url);
-      setFile(info.file.originFileObj );
+      setFile(info.file.originFileObj);
     } else if (info.file.status === "error") {
       message.error(`${info.file.name} file upload failed.`);
     }
@@ -132,11 +181,10 @@ const Perfil = () => {
     onSuccess(file);
   };
 
-
   const beforeUpload = (file) => {
-    const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
+    const isJpgOrPng = file.type === "image/jpeg" || file.type === "image/png";
     if (!isJpgOrPng) {
-      message.error('Solo puedes subir archivos JPG/PNG.');
+      message.error("Solo puedes subir archivos JPG/PNG.");
     }
     return isJpgOrPng;
   };
@@ -293,13 +341,13 @@ const Perfil = () => {
             <Row gutter={16}>
               <Col xs={24} sm={24} md={12} lg={12}>
                 <Form.Item
-                name="rol"
+                  name="rol"
                   label="Rol"
                   rules={[
                     { required: true, message: "Por favor seleccione un rol" },
                   ]}
                 >
-                <Input  disabled={true}/>
+                  <Input disabled={true} />
                 </Form.Item>
               </Col>
 
@@ -331,7 +379,7 @@ const Perfil = () => {
                     listType="picture-card"
                     showUploadList={false}
                     customRequest={customRequest}
-                    beforeUpload={beforeUpload}  
+                    beforeUpload={beforeUpload}
                     onChange={handleUploadChange}
                     className="upload-avatar"
                   >
