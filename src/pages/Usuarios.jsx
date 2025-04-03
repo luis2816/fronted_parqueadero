@@ -256,7 +256,6 @@ const Usuarios = () => {
   const fetchData = async () => {
     try {
       const usuarios = await obtenerUsuarios();
-      console.log(usuarios);
       setDataUsuario(usuarios);
       setFilteredData(usuarios);
     } catch (err) {

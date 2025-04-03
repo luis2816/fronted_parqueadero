@@ -264,7 +264,6 @@ const Vigilantes = () => {
   const fetchData = async () => {
     try {
       const { status, data } = await obtenerVigilantes(userIdNumber);
-      console.log(data);
       setDataVigilantes(data);
       setFilteredData(data);
     } catch (err) {

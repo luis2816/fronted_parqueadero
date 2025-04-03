@@ -16,7 +16,6 @@ export const obtenerResidentes = async (id_admin) => {
 };
 
 export const insertResidente = async (formData) => {
-    console.log(formData);
     try {
         const response = await axios.post(`${API_URL}/residente`, formData, {
             headers: {

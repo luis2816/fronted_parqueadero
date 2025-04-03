@@ -16,8 +16,12 @@ import Success from "../pages/compra/succes";
 import InformeParqueadero from "../pages/informes/InformeParqueadero";
 import Residentes from "../pages/residentes/Residentes";
 import Vigilantes from "../pages/Vigilante/Vigilante";
+import { useSelector } from "react-redux";
 
 const AppRoutes = () => {
+  const user = useSelector((state) => state.user);
+  const id_conjunto = user.id_conjunto;
+
   return (
     <Routes>
       {/* Ruta para la página de login */}
@@ -40,6 +44,15 @@ const AppRoutes = () => {
                   <Route path="perfil" element={<Perfil />} />
                   <Route path="usuarios" element={<Usuarios />} />
                   <Route path="updatePassword" element={<UpdatePassword />} />
+                  <Route
+                    path="visualizacion_conjunto"
+                    element={<ParkingManagement idConjunto={id_conjunto} />}
+                  />
+                  <Route
+                    path="informe-parqueaderos"
+                    element={<InformeParqueadero />}
+                  />
+
                   {/* Agrega más rutas protegidas aquí */}
                 </Routes>
               </Template>
@@ -47,13 +60,11 @@ const AppRoutes = () => {
           />
         }
       />
-      <Route path="informe-parqueaderos" element={<InformeParqueadero />} />
       <Route path="/success" element={<Success />} />
       <Route path="/comprar" element={<Comprar />} />
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/acceso-restringido" element={<AccesoRestringido />} />
       <Route path="*" element={<Navigate to="/acceso-restringido" />} />
-      <Route path="visualizacion_conjunto" element={<ParkingManagement />} />
     </Routes>
   );
 };

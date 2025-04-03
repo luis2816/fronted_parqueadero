@@ -10,6 +10,13 @@ const initialState = {
   primer_apellido: localStorage.getItem("primer_apellido") || null,
   foto_perfil_url: localStorage.getItem("foto_perfil_url") || undefined,
   id: localStorage.getItem("id") ? Number(localStorage.getItem("id")) : null,
+  id_conjunto: localStorage.getItem("id_conjunto")
+    ? Number(localStorage.getItem("id_conjunto"))
+    : null,
+
+  rol_id: localStorage.getItem("rol_id")
+    ? Number(localStorage.getItem("rol_id"))
+    : null,
   cantidad_licencias: localStorage.getItem("cantidad_licencias")
     ? Number(localStorage.getItem("cantidad_licencias"))
     : null,
@@ -32,6 +39,8 @@ export const fetchUserData = createAsyncThunk(
       foto_perfil_url: userImage,
       id: response.id,
       cantidad_licencias: response.cantidad_licencia,
+      rol_id: response.rol_id,
+      id_conjunto: response.conjunto_asignado,
     };
 
     return userData;
@@ -47,6 +56,8 @@ const userSlice = createSlice({
       state.primer_nombre = null;
       state.primer_apellido = null;
       state.foto_perfil_url = undefined;
+      state.rol_id = undefined;
+      state.id_conjunto = undefined;
       state.id = null;
       state.cantidad_licencias = null;
       localStorage.removeItem("userEmail");
@@ -55,6 +66,8 @@ const userSlice = createSlice({
       localStorage.removeItem("foto_perfil_url");
       localStorage.removeItem("id");
       localStorage.removeItem("cantidad_licencias");
+      localStorage.removeItem("rol_id");
+      localStorage.removeItem("id_conjunto");
     },
   },
   extraReducers: (builder) => {
@@ -71,6 +84,8 @@ const userSlice = createSlice({
           foto_perfil_url,
           id,
           cantidad_licencias,
+          rol_id,
+          id_conjunto,
         } = action.payload;
         state.email = email;
         state.primer_nombre = primer_nombre;
@@ -79,6 +94,8 @@ const userSlice = createSlice({
         state.id = id;
         state.loading = false;
         state.cantidad_licencias = cantidad_licencias;
+        state.rol_id = rol_id;
+        state.id_conjunto = id_conjunto;
 
         // Guardar los datos en localStorage
         localStorage.setItem("userEmail", email);
@@ -88,8 +105,11 @@ const userSlice = createSlice({
         localStorage.setItem("id", id.toString());
         localStorage.setItem(
           "cantidad_licencias",
+
           cantidad_licencias.toString()
         );
+        localStorage.setItem("rol_id", id.toString());
+        localStorage.setItem("id_conjunto", id.toString());
       })
       .addCase(fetchUserData.rejected, (state, action) => {
         state.loading = false;

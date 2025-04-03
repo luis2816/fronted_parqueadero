@@ -27,12 +27,11 @@ import ParkingReport from "../informes/ParkingReport";
 
 const { Title } = Typography;
 
-const ParkingManagement = () => {
+const ParkingManagement = ({ idConjunto }) => {
   const [parkingData, setParkingData] = useState(null);
   const [dataSource, setDataSource] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const idConjunto = 10;
   const [showTable, setShowTable] = useState(true);
 
   useEffect(() => {
@@ -422,8 +421,6 @@ const ParkingManagement = () => {
               />
             </Card>
           </Col>
-
-          <ParkingReport parkingData={parkingData}></ParkingReport>
         </Row>
       </div>
     </div>

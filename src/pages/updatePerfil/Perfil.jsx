@@ -37,7 +37,6 @@ const Perfil = () => {
     try {
       setLoading(true);
       const usuarioData = await obtenerUsuarioPorId(userIdNumber);
-      console.log(usuarioData);
       setUsuario(usuarioData);
       form.setFieldsValue({
         nombre: usuarioData.nombre,
@@ -56,7 +55,6 @@ const Perfil = () => {
       });
       const url_foto =
         usuarioData.foto_perfil_url + `?timestamp=${new Date().getTime()}`;
-      console.log(url_foto);
       setImageUrl(url_foto); // Asume que `usuarioData.avatar` contiene la URL de la imagen
     } catch (error) {
       console.error("Error al obtener el usuario:", error);

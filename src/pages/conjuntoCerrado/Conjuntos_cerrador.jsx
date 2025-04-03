@@ -13,6 +13,7 @@ import {
   Menu,
   Card,
   Statistic,
+  Modal,
 } from "antd";
 import {
   SearchOutlined,
@@ -24,6 +25,7 @@ import {
   FilePdfOutlined,
   EditOutlined,
   EyeOutlined,
+  DashboardOutlined,
 } from "@ant-design/icons";
 import { useSelector } from "react-redux";
 
@@ -36,6 +38,7 @@ import Form_conjunto from "./Form_conjunto";
 import VisorModelo3D from "./Modelo3DViewer";
 import ExportExcel from "../../components/ExportExcel";
 import ExportPDF from "../../components/ExportPDF";
+import ParkingManagement from "../Vigilante/ParkingManagement";
 
 const { Title } = Typography;
 
@@ -50,6 +53,12 @@ const Conjunto_cerrado = () => {
   const [modeloSeleccionado, setModeloSeleccionado] = useState(null);
   const [error, setError] = useState(null);
   const [pagination] = useState({ pageSize: 30, current: 1 });
+  const [conjuntoSelecionado, setConjuntoSelecionado] = useState(null);
+  const [modalVisible, setModalVisible] = useState(false);
+  const [visualizarEstadoParqueadero, setVisualizarEstadoParqueadero] =
+    useState(false);
+
+  true;
 
   const headers = [
     "Nombre",
@@ -107,10 +116,8 @@ const Conjunto_cerrado = () => {
   const fetchData = async () => {
     try {
       const conjuntos = await obtenerConjuntos(user.id);
-      console.log(conjuntos);
       setDataConjuntos(conjuntos);
       setFilteredData(conjuntos);
-      console.log(dataCojuntos);
     } catch (err) {
       setError("Error al cargar los datos");
     } finally {
@@ -130,6 +137,21 @@ const Conjunto_cerrado = () => {
   const VisializarModelo3D = async (record) => {
     const imageUrl = getConjuntoImage(record.soporte_path);
     setModeloSeleccionado(imageUrl);
+  };
+
+  const abrirModalParqueadero = (id) => {
+    setConjuntoSelecionado(id);
+    setModalVisible(true);
+    setVisualizarEstadoParqueadero(true);
+  };
+
+  const cerrarModalParqueadero = () => {
+    setModalVisible(false);
+    setVisualizarEstadoParqueadero(false);
+  };
+
+  const cerrarModal = () => {
+    setModalVisible(false);
   };
 
   const onVolver = () => {
@@ -172,7 +194,7 @@ const Conjunto_cerrado = () => {
       title: "Acciones",
       dataIndex: "actions",
       key: "actions",
-      width: 100,
+      width: 150,
       render: (text, record) => (
         <>
           <Button
@@ -197,6 +219,19 @@ const Conjunto_cerrado = () => {
               onClick={() => VisializarModelo3D(record)}
             />
           )}
+
+          <Button
+            type="primary"
+            shape="circle"
+            icon={<DashboardOutlined />}
+            size="small"
+            style={{
+              marginLeft: 8,
+              backgroundColor: "#ec7c06",
+              borderColor: "#ec7c06",
+            }}
+            onClick={() => abrirModalParqueadero(record.id)}
+          />
         </>
       ),
     },
@@ -300,7 +335,6 @@ const Conjunto_cerrado = () => {
                 </p>
               </div>
             </div>
-
             <Row gutter={[16, 16]} className="mb-4">
               <Col span={24}>
                 <div className="filter-container">
@@ -405,7 +439,6 @@ const Conjunto_cerrado = () => {
                 </div>
               </Col>
             </Row>
-
             <div className="row mb-4">
               <div className="col-12">
                 {filteredData.length > 0 ? (
@@ -431,13 +464,32 @@ const Conjunto_cerrado = () => {
                 )}
               </div>
             </div>
-
             {modeloSeleccionado && (
               <VisorModelo3D
                 url={modeloSeleccionado}
                 onClose={() => setModeloSeleccionado(null)}
               />
             )}
+            <div>
+              {/* Tu tabla u otros componentes */}
+              {visualizarEstadoParqueadero && (
+                <Modal
+                  title="Estado del Parqueadero"
+                  visible={modalVisible}
+                  onCancel={cerrarModalParqueadero}
+                  footer={null}
+                  width="80%"
+                  destroyOnClose
+                  bodyStyle={{
+                    maxHeight: "70vh", // Altura máxima del 70% del viewport
+                    overflowY: "auto", // Scroll vertical si el contenido excede la altura
+                    padding: "16px 24px", // Padding consistente con el diseño de Ant Design
+                  }}
+                >
+                  <ParkingManagement idConjunto={conjuntoSelecionado} />
+                </Modal>
+              )}
+            </div>{" "}
           </div>
         </>
       )}

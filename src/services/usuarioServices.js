@@ -95,7 +95,6 @@ export const verificarUserEmail = async (email) => {
 export const obtenerDetalleCompra_id = async (id_transaccion) => {
     try {
         const url = `${API_URL}/webhook/${id_transaccion}`;
-        console.log('Fetching data from:', url);
         const response = await axios.get(url);
         
         if (response.status !== 200) {

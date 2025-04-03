@@ -256,11 +256,6 @@ const Form_conjunto = ({ initialData, onVolver }) => {
         formDataEnvio.append("soporte", image);
       }
 
-      console.log(
-        "Datos enviados:",
-        Object.fromEntries(formDataEnvio.entries())
-      ); // Verificar datos antes de enviar
-
       // Enviar datos al backend
       const respuesta = isEditing
         ? await updateConjunto(initialData.id, formDataEnvio)

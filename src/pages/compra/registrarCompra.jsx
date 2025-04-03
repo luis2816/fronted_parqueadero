@@ -93,7 +93,6 @@ const Comprar = () => {
 
             });
 
-            console.log(responsePay.data.payment_url)
             const paymentUrl = responsePay.data.payment_url;
             message.success("Orden creada con éxito");
             window.location.href = paymentUrl;
@@ -121,7 +120,6 @@ const Comprar = () => {
       setLoading(true);
       const values = form.getFieldsValue(["email", "password"]);
       const response = await loginService(values.email, values.password);
-      console.log(response)
       if (response.status === 200) {
         message.success("Inicio de sesión exitoso, ahora puede comprar licencias");
         setStep(4); // Move to buy licenses step
@@ -144,7 +142,6 @@ const Comprar = () => {
   };
 
   const handleBuySubmit = async () => {
-    console.log(idUsuario)
     try {
       setLoading(true);
       const values = form.getFieldsValue();

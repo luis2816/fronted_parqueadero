@@ -135,7 +135,6 @@ const Residentes = () => {
   );
 
   const handleEdit = async (record) => {
-    console.log(record);
     setIsEditing(true);
     setEditingUser(record);
     // Configurar la URL de la imagen en el estado para el campo Upload
@@ -147,7 +146,6 @@ const Residentes = () => {
       // Formatea la fecha de nacimiento al formato "YYYY-MM-DD"
       const formattedValues = {
         ...values,
-        id_residente_conjunto: editingUser.id_residente_conjunto,
         fecha_nacimiento: values.fecha_nacimiento
           ? moment(values.fecha_nacimiento).format("YYYY-MM-DD")
           : undefined,
@@ -255,7 +253,6 @@ const Residentes = () => {
   const fetchData = async () => {
     try {
       const { status, data } = await obtenerResidentes(userIdNumber);
-      console.log(data);
       setDataResidentes(data);
       setFilteredData(data);
     } catch (err) {
