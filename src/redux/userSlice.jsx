@@ -38,7 +38,7 @@ export const fetchUserData = createAsyncThunk(
       primer_apellido: response.apellido,
       foto_perfil_url: userImage,
       id: response.id,
-      cantidad_licencias: response.cantidad_licencia,
+      cantidad_licencias: response.cantidad_licencia ?? 0, // Esto asigna 0 si es null o undefined
       rol_id: response.rol_id,
       id_conjunto: response.conjunto_asignado,
     };

@@ -19,8 +19,8 @@ const AppAsaid = () => {
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
   const rol = user.rol_id; // Ahora es un número: 1 (admin), 2 (vigilante), 3 (residente)
-  const id_conjunto = user.id_conjunto;
-  
+ 
+
   const onLogout = () => {
     handleLogout(dispatch, navigate);
   };
