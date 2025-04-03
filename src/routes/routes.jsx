@@ -53,7 +53,7 @@ const AppRoutes = () => {
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/acceso-restringido" element={<AccesoRestringido />} />
       <Route path="*" element={<Navigate to="/acceso-restringido" />} />
-      <Route path="parkingManager" element={<ParkingManagement />} />
+      <Route path="visualizacion_conjunto" element={<ParkingManagement />} />
     </Routes>
   );
 };

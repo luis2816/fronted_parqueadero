@@ -30,18 +30,16 @@ export const insertResidente = async (formData) => {
     }
 };
 
-
-
-export const updateVigilante = async (userId, formData) => {
+export const updateResidente = async (userId, formData) => {
     try {
-        const response = await axios.put(`${API_URL}/vigilante/${userId}`, formData, {
+        const response = await axios.put(`${API_URL}/residente/${userId}`, formData, {
             headers: {
-                'Content-Type': 'multipart/form-data' // Asegúrate de que el tipo de contenido es correcto
+                'Content-Type': 'application/json' // Enviar datos en formato JSON
             }
         });
         return response.data; // Axios maneja automáticamente la conversión a JSON
     } catch (error) {
-        console.error('Error al actualizar el vigilante:', error);
+        console.error('Error al actualizar el residente:', error);
         throw error; // Propaga el error para que pueda ser manejado por el componente que llama
     }
 };
